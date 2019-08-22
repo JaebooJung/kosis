@@ -9,6 +9,8 @@ setup(
     author="KIM, Doh-hyoung",
     zip_safe=True,
     install_requires=[
+        "lxml",
         "pandas",
+        "requests",
     ],
 )
