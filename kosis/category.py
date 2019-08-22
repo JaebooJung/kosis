@@ -1,11 +1,19 @@
 # -*- coding: utf-8 -*-
 
 import json
+import os.path
 from string import Template
 
 import requests
 
 from .config import get_apikey
+
+__all__ = [
+    "print_category",
+    "fetch_tree",
+    "get_tree",
+    "search_tree",
+]
 
 dict_wv_code = {
     "MT_ZTITLE": "국내통계 주제별",
@@ -48,7 +56,7 @@ def print_category():
         print(format_str.format(k, dict_wv_code.get(v)))
 
 
-def fetch_nodes(category, parent_list_id=None):
+def fetch_nodes(category, parent_list_id=None, parent_name=None):
     wv_code = category2wv_code[category]
 
     url = "http://kosis.kr/openapi/statisticsList.do"
@@ -68,23 +76,85 @@ def fetch_nodes(category, parent_list_id=None):
     data = []
     for d in all_data:
         if "LIST_NM" in d:
-            data.append({"type": "list", "list_name": d["LIST_NM"], "list_id": d["LIST_ID"]})
+            data.append({
+                "category": category,
+                "type": "list",
+                "name": d["LIST_NM"],
+                "acc_name": d["LIST_NM"] if parent_name is None else parent_name + "/" + d["LIST_NM"],
+                "acc_id": d["LIST_ID"] if parent_list_id is None else parent_list_id + "/" + d["LIST_ID"],
+                "id": d["LIST_ID"]
+            })
         if "TBL_NM" in d:
-            data.append({"type": "table", "table_name": d["TBL_NM"], "org_id": d["ORG_ID"], "table_id": d["TBL_ID"]})
+            data.append({
+                "category": category,
+                "type": "table",
+                "name": d["TBL_NM"],
+                "list_names": parent_name,
+                "list_ids": parent_name,
+                "id": d["TBL_ID"],
+                "org_id": d["ORG_ID"],
+            })
 
     return data
 
 
-def fetch_subnodes(category, parent_list_id=None):
-    print("parent_list_id =", parent_list_id)
-    pre_nodes = fetch_nodes(category, parent_list_id)
+def fetch_subnodes(category, parent_list_id=None, parent_name=None, max_level=1e9, level=0):
+    level += 1
+    if level > max_level:
+        return []
+    if parent_list_id is not None:
+        print("parent_list_id =", parent_list_id)
+    first_nodes = fetch_nodes(category, parent_list_id, parent_name)
     nodes = []
-    for n in pre_nodes:
+    for n in first_nodes:
         if n["type"] == "list":
-            n["children"] = fetch_subnodes(category, n["list_id"])
+            n["children"] = fetch_subnodes(category, n["id"], n["acc_name"], max_level=max_level, level=level)
         nodes.append(n)
     return nodes
 
 
-def fetch_tree(category):
-    fetch_subnodes(category)
+def fetch_tree(category=None, max_level=1e9):
+    json_path = os.path.join(os.path.dirname(__file__), category + ".json")
+    if not os.path.exists(json_path):
+        with open(json_path, "w") as json_file:
+            json_file.write("{}")
+    with open(json_path, "r") as json_file:
+        json_data = json.load(json_file)
+    nodes = fetch_subnodes(category, max_level=max_level)
+    json_data[category] = nodes
+    with open(json_path, "w") as json_file:
+        json.dump(json_data, json_file, ensure_ascii=False, indent=2)
+
+
+def get_tree(category):
+    json_path = os.path.join(os.path.dirname(__file__), category + ".json")
+    with open(json_path, "r") as json_file:
+        json_data = json.load(json_file)
+    return json_data
+
+
+def node_copy(node):
+    keys = ["category", "type", "name", "id", "org_id", "list_names", "list_ids"]
+    return {k: v for k, v in node.items() if k in keys}
+
+
+def search_node(result, nodes, key):
+    for n in nodes:
+        if (n["type"] == "table") and (n["name"].strip().find(key) >= 0):
+            n_copy = node_copy(n)
+            result.append(n_copy)
+        if ("list_names" in n) and (n["list_names"].strip().find(key) >= 0):
+            n_copy = node_copy(n)
+            result.append(n_copy)
+        if "children" in n:
+            result = search_node(result, n["children"], key)
+
+    return result
+
+
+def search_tree(category, key):
+    json_data = get_tree(category)
+    nodes = json_data[category]
+    result = []
+    result = search_node(result, nodes, key)
+    return result
