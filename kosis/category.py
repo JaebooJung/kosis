@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import datetime as dt
 import json
 import os.path
 from string import Template
@@ -13,6 +14,8 @@ __all__ = [
     "fetch_tree",
     "get_tree",
     "search_tree",
+    "get_tables",
+    "search_tables",
 ]
 
 dict_wv_code = {
@@ -122,6 +125,7 @@ def fetch_tree(category=None, max_level=1e9):
         json_data = json.load(json_file)
     nodes = fetch_subnodes(category, max_level=max_level)
     json_data[category] = nodes
+    json_data[category + "-timestamp"] = dt.datetime.now().isoformat()
     with open(json_path, "w") as json_file:
         json.dump(json_data, json_file, ensure_ascii=False, indent=2)
 
@@ -148,7 +152,6 @@ def search_node(result, nodes, key):
             result.append(n_copy)
         if "children" in n:
             result = search_node(result, n["children"], key)
-
     return result
 
 
@@ -157,4 +160,33 @@ def search_tree(category, key):
     nodes = json_data[category]
     result = []
     result = search_node(result, nodes, key)
+    return result
+
+
+def search_tablenode(result, nodes):
+    for n in nodes:
+        if n["type"] == "table":
+            n_copy = node_copy(n)
+            result.append(n_copy)
+        if "children" in n:
+            result = search_tablenode(result, n["children"])
+    return result
+
+
+def get_tables(category):
+    json_data = get_tree(category)
+    nodes = json_data[category]
+    result = []
+    result = search_tablenode(result, nodes)
+    return result
+
+
+def search_tables(category, key, search_listname=False):
+    tables = get_tables(category)
+    result = []
+    for t in tables:
+        if t["name"].strip().find(key) >= 0:
+            result.append(t)
+        if search_listname and t["list_names"].strip().find(key) >= 0:
+            result.append(t)
     return result
