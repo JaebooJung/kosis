@@ -13,10 +13,9 @@ __all__ = [
     "print_category",
     "fetch_tree",
     "get_tree",
-    "search_tree",
+    "print_tree",
     "get_tables",
     "search_tables",
-    "print_tree",
 ]
 
 dict_wv_code = {
@@ -131,7 +130,7 @@ def fetch_tree(category=None, max_level=1e9):
         json.dump(json_data, json_file, ensure_ascii=False, indent=2)
 
 
-def get_tree(category):
+def get_tree(category="topic"):
     json_path = os.path.join(os.path.dirname(__file__), category + ".json")
     with open(json_path, "r") as json_file:
         json_data = json.load(json_file)
@@ -162,9 +161,7 @@ def search_node(result, nodes, key=None, by="name", with_children=False):
     return result
 
 
-def search_tree(category="topic", key=None, by="name"):
-    if key is None:
-        raise ValueError("key is None")
+def search_tree(key, by="name", category="topic"):
     json_data = get_tree(category)
     nodes = json_data[category]
     result = []
@@ -182,7 +179,7 @@ def search_tablenode(result, nodes):
     return result
 
 
-def get_tables(category):
+def get_tables(category="topic"):
     json_data = get_tree(category)
     nodes = json_data[category]
     result = []
@@ -190,9 +187,7 @@ def get_tables(category):
     return result
 
 
-def search_tables(category="topic", key=None, search_listname=False):
-    if key is None:
-        raise ValueError("key is None")
+def search_tables(key, search_listname=False, category="topic"):
     tables = get_tables(category)
     result = []
     for t in tables:
@@ -231,7 +226,7 @@ def print_nodes(nodes, max_level, parent_last):
                     print_nodes(node["children"], max_level, parent_last_with_false)
 
 
-def print_tree(category="topic", max_level=1, list_id=None):
+def print_tree(max_level=1, list_id=None, category="topic"):
     tree = get_tree(category)[category]
     if list_id is None:
         nodes = tree
