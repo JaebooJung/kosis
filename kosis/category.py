@@ -16,6 +16,7 @@ __all__ = [
     "search_tree",
     "get_tables",
     "search_tables",
+    "print_tree",
 ]
 
 dict_wv_code = {
@@ -59,9 +60,8 @@ def print_category():
         print(format_str.format(k, dict_wv_code.get(v)))
 
 
-def fetch_nodes(category, parent_list_id=None, parent_name=None):
+def fetch_nodes(category="topic", parent_list_id=None, parent_name=None):
     wv_code = category2wv_code[category]
-
     url = "http://kosis.kr/openapi/statisticsList.do"
     params = {
         "format": "json",
@@ -101,17 +101,18 @@ def fetch_nodes(category, parent_list_id=None, parent_name=None):
     return data
 
 
-def fetch_subnodes(category, parent_list_id=None, parent_name=None, max_level=1e9, level=0):
+def fetch_subnodes(category="topic", parent_list_id=None, parent_name=None, max_level=1e9, level=0):
     level += 1
     if level > max_level:
         return []
     if parent_list_id is not None:
         print("parent_list_id =", parent_list_id)
-    first_nodes = fetch_nodes(category, parent_list_id, parent_name)
+    first_nodes = fetch_nodes(category="topic", parent_list_id=parent_list_id, parent_name=parent_name)
     nodes = []
     for n in first_nodes:
         if n["type"] == "list":
-            n["children"] = fetch_subnodes(category, n["id"], n["acc_name"], max_level=max_level, level=level)
+            n["children"] = fetch_subnodes(category="topic", parent_list_id=n["id"], parent_name=n["acc_name"],
+                                           max_level=max_level, level=level)
         nodes.append(n)
     return nodes
 
@@ -123,7 +124,7 @@ def fetch_tree(category=None, max_level=1e9):
             json_file.write("{}")
     with open(json_path, "r") as json_file:
         json_data = json.load(json_file)
-    nodes = fetch_subnodes(category, max_level=max_level)
+    nodes = fetch_subnodes(category="topic", max_level=max_level)
     json_data[category] = nodes
     json_data[category + "-timestamp"] = dt.datetime.now().isoformat()
     with open(json_path, "w") as json_file:
@@ -137,29 +138,37 @@ def get_tree(category):
     return json_data
 
 
-def node_copy(node):
+def node_copy(node, with_children=False):
     keys = ["category", "type", "name", "id", "org_id", "list_names", "list_ids"]
+    if with_children:
+        keys.append("children")
     return {k: v for k, v in node.items() if k in keys}
 
 
-def search_node(result, nodes, key):
+def search_node(result, nodes, key=None, by="name", with_children=False):
+    if key is None:
+        raise ValueError("key is None")
     for n in nodes:
-        if (n["type"] == "table") and (n["name"].strip().find(key) >= 0):
-            n_copy = node_copy(n)
-            result.append(n_copy)
-        if ("list_names" in n) and (n["list_names"].strip().find(key) >= 0):
-            n_copy = node_copy(n)
-            result.append(n_copy)
+        if by == "name":
+            if (n["type"] == "table") and (n[by].strip().find(key) >= 0):
+                n_copy = node_copy(n, with_children)
+                result.append(n_copy)
+        if by == "id":
+            if n[by] == key:
+                n_copy = node_copy(n, with_children)
+                result.append(n_copy)
         if "children" in n:
-            result = search_node(result, n["children"], key)
+            result = search_node(result, n["children"], key, by, with_children)
     return result
 
 
-def search_tree(category, key):
+def search_tree(category="topic", key=None, by="name"):
+    if key is None:
+        raise ValueError("key is None")
     json_data = get_tree(category)
     nodes = json_data[category]
     result = []
-    result = search_node(result, nodes, key)
+    result = search_node(result, nodes, key, by)
     return result
 
 
@@ -181,7 +190,9 @@ def get_tables(category):
     return result
 
 
-def search_tables(category, key, search_listname=False):
+def search_tables(category="topic", key=None, search_listname=False):
+    if key is None:
+        raise ValueError("key is None")
     tables = get_tables(category)
     result = []
     for t in tables:
@@ -190,3 +201,42 @@ def search_tables(category, key, search_listname=False):
         if search_listname and t["list_names"].strip().find(key) >= 0:
             result.append(t)
     return result
+
+
+def print_nodes(nodes, max_level, parent_last):
+    cur_level = len(parent_last)
+    if cur_level >= max_level:
+        return
+    num_nodes = len(nodes)
+    parent_last_with_true = parent_last.copy()
+    parent_last_with_true.append(True)
+    parent_last_with_false = parent_last.copy()
+    parent_last_with_false.append(False)
+    leadings = "".join(["   " if p else "│ " for p in parent_last])
+    if num_nodes == 1:
+        node = nodes[0]
+        print(leadings + "└{name} [{type}:{id}]".format(**node))
+        parent_last.append(False)
+        if "children" in node:
+            print_nodes(node["children"], max_level, parent_last_with_false)
+    else:
+        for i, node in enumerate(nodes):
+            if i == num_nodes - 1:
+                print(leadings + "└{name} [{type}:{id}]".format(**node))
+                if "children" in node:
+                    print_nodes(node["children"], max_level, parent_last_with_true)
+            else:
+                print(leadings + "├{name} [{type}:{id}]".format(**node))
+                if "children" in node:
+                    print_nodes(node["children"], max_level, parent_last_with_false)
+
+
+def print_tree(category="topic", max_level=1, list_id=None):
+    tree = get_tree(category)[category]
+    if list_id is None:
+        nodes = tree
+    else:
+        result = []
+        result = search_node(result, tree, list_id, by="id", with_children=True)
+        nodes = result[0]["children"]
+    print_nodes(nodes, max_level, [])
