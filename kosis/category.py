@@ -82,8 +82,8 @@ def fetch_nodes(category="topic", parent_list_id=None, parent_name=None):
                 "category": category,
                 "type": "list",
                 "name": d["LIST_NM"],
-                "acc_name": d["LIST_NM"] if parent_name is None else parent_name + "/" + d["LIST_NM"],
-                "acc_id": d["LIST_ID"] if parent_list_id is None else parent_list_id + "/" + d["LIST_ID"],
+                "acc_name": d["LIST_NM"] if parent_name is None else parent_name + " ; " + d["LIST_NM"],
+                "acc_id": d["LIST_ID"] if parent_list_id is None else parent_list_id + " ; " + d["LIST_ID"],
                 "id": d["LIST_ID"]
             })
         if "TBL_NM" in d:
@@ -210,23 +210,23 @@ def print_nodes(nodes, max_level, parent_last):
     leadings = "".join(["   " if p else "│ " for p in parent_last])
     if num_nodes == 1:
         node = nodes[0]
-        print(leadings + "└{name} [{type}:{id}]".format(**node))
+        print(leadings + "└─ {name} [{type}:{id}]".format(**node))
         parent_last.append(False)
         if "children" in node:
             print_nodes(node["children"], max_level, parent_last_with_false)
     else:
         for i, node in enumerate(nodes):
             if i == num_nodes - 1:
-                print(leadings + "└{name} [{type}:{id}]".format(**node))
+                print(leadings + "└─ {name} [{type}:{id}]".format(**node))
                 if "children" in node:
                     print_nodes(node["children"], max_level, parent_last_with_true)
             else:
-                print(leadings + "├{name} [{type}:{id}]".format(**node))
+                print(leadings + "├─ {name} [{type}:{id}]".format(**node))
                 if "children" in node:
                     print_nodes(node["children"], max_level, parent_last_with_false)
 
 
-def print_tree(max_level=1, list_id=None, category="topic"):
+def print_tree(list_id=None, max_level=1, category="topic"):
     tree = get_tree(category)[category]
     if list_id is None:
         nodes = tree
