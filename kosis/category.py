@@ -16,6 +16,7 @@ __all__ = [
     "print_tree",
     "get_tables",
     "search_tables",
+    "search_tables_by_id",
 ]
 
 dict_wv_code = {
@@ -52,6 +53,7 @@ category2wv_code = {
 
 
 def print_category():
+    """통계 카테고리와 코드 인쇄"""
     len_command = max(*[len(k) for k in category2wv_code.keys()])
     len_text = max(*[len(dict_wv_code.get(v)) for v in category2wv_code.values()])
     format_str = Template(" {:$l1}: {:$l2}").substitute(l1=len_command + 1, l2=len_text)
@@ -59,7 +61,8 @@ def print_category():
         print(format_str.format(k, dict_wv_code.get(v)))
 
 
-def fetch_nodes(category="topic", parent_list_id=None, parent_name=None):
+def fetch_nodes(category="topic", parent_list_id=None, parent_name=None, list_map=None):
+    """KOSIS에서 트리 전체 정보 다운로드"""
     wv_code = category2wv_code[category]
     url = "http://kosis.kr/openapi/statisticsList.do"
     params = {
@@ -82,17 +85,24 @@ def fetch_nodes(category="topic", parent_list_id=None, parent_name=None):
                 "category": category,
                 "type": "list",
                 "name": d["LIST_NM"],
-                "acc_name": d["LIST_NM"] if parent_name is None else parent_name + " ; " + d["LIST_NM"],
-                "acc_id": d["LIST_ID"] if parent_list_id is None else parent_list_id + " ; " + d["LIST_ID"],
+                "acc_name": d["LIST_NM"] if parent_name is None else parent_name + ";" + d["LIST_NM"],
+                "acc_id": d["LIST_ID"] if parent_list_id is None else parent_list_id + ";" + d["LIST_ID"],
                 "id": d["LIST_ID"]
             })
+            list_map.update({d["LIST_ID"]: parent_list_id})
         if "TBL_NM" in d:
+            list_id = parent_list_id
+            list_ids = parent_list_id
+            while list_id is not None:
+                list_id = list_map[list_id]
+                if list_id is not None:
+                    list_ids = list_id + ";" + list_ids
             data.append({
                 "category": category,
                 "type": "table",
                 "name": d["TBL_NM"],
                 "list_names": parent_name,
-                "list_ids": parent_name,
+                "list_ids": list_ids,
                 "id": d["TBL_ID"],
                 "org_id": d["ORG_ID"],
             })
@@ -100,18 +110,20 @@ def fetch_nodes(category="topic", parent_list_id=None, parent_name=None):
     return data
 
 
-def fetch_subnodes(category="topic", parent_list_id=None, parent_name=None, max_level=1e9, level=0):
+def fetch_subnodes(category="topic", parent_list_id=None, parent_name=None, max_level=1e9, level=0, list_map=None):
     level += 1
     if level > max_level:
         return []
     if parent_list_id is not None:
         print("parent_list_id =", parent_list_id)
-    first_nodes = fetch_nodes(category=category, parent_list_id=parent_list_id, parent_name=parent_name)
+    first_nodes = fetch_nodes(category=category, parent_list_id=parent_list_id, parent_name=parent_name,
+                              list_map=list_map)
     nodes = []
     for n in first_nodes:
         if n["type"] == "list":
             n["children"] = fetch_subnodes(category=category, parent_list_id=n["id"], parent_name=n["acc_name"],
-                                           max_level=max_level, level=level)
+                                           max_level=max_level, level=level, list_map=list_map)
+
         nodes.append(n)
     return nodes
 
@@ -123,7 +135,7 @@ def fetch_tree(category=None, max_level=1e9):
             json_file.write("{}")
     with open(json_path, "r") as json_file:
         json_data = json.load(json_file)
-    nodes = fetch_subnodes(category=category, max_level=max_level)
+    nodes = fetch_subnodes(category=category, max_level=max_level, list_map={})
     json_data[category] = nodes
     json_data[category + "-timestamp"] = dt.datetime.now().isoformat()
     with open(json_path, "w") as json_file:
@@ -131,6 +143,7 @@ def fetch_tree(category=None, max_level=1e9):
 
 
 def get_tree(category="topic"):
+    """트리 객체 반환"""
     json_path = os.path.join(os.path.dirname(__file__), category + ".json")
     with open(json_path, "r") as json_file:
         json_data = json.load(json_file)
@@ -180,6 +193,7 @@ def search_tablenode(result, nodes):
 
 
 def get_tables(category="topic"):
+    """모든 테이블 반환"""
     json_data = get_tree(category)
     nodes = json_data[category]
     result = []
@@ -188,6 +202,7 @@ def get_tables(category="topic"):
 
 
 def search_tables(key, search_listname=False, category="topic"):
+    """키워드로 테이블 검색"""
     tables = get_tables(category)
     result = []
     for t in tables:
@@ -196,6 +211,15 @@ def search_tables(key, search_listname=False, category="topic"):
         if search_listname and t["list_names"].strip().find(key) >= 0:
             result.append(t)
     return result
+
+
+def search_tables_by_id(table_id, category="topic"):
+    """테이블 아이디로 테이블 검색"""
+    tables = get_tables(category)
+    for t in tables:
+        if t["id"] == table_id:
+            return t
+    return None
 
 
 def print_nodes(nodes, max_level, parent_last):
@@ -227,6 +251,7 @@ def print_nodes(nodes, max_level, parent_last):
 
 
 def print_tree(list_id=None, max_level=1, category="topic"):
+    """트리 프린트"""
     tree = get_tree(category)[category]
     if list_id is None:
         nodes = tree
