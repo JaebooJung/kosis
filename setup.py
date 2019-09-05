@@ -13,5 +13,6 @@ setup(
         "lxml",
         "pandas",
         "requests",
+        "xmltodict",
     ],
 )

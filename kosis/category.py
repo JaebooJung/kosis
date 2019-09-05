@@ -106,11 +106,11 @@ def fetch_subnodes(category="topic", parent_list_id=None, parent_name=None, max_
         return []
     if parent_list_id is not None:
         print("parent_list_id =", parent_list_id)
-    first_nodes = fetch_nodes(category="topic", parent_list_id=parent_list_id, parent_name=parent_name)
+    first_nodes = fetch_nodes(category=category, parent_list_id=parent_list_id, parent_name=parent_name)
     nodes = []
     for n in first_nodes:
         if n["type"] == "list":
-            n["children"] = fetch_subnodes(category="topic", parent_list_id=n["id"], parent_name=n["acc_name"],
+            n["children"] = fetch_subnodes(category=category, parent_list_id=n["id"], parent_name=n["acc_name"],
                                            max_level=max_level, level=level)
         nodes.append(n)
     return nodes
@@ -123,7 +123,7 @@ def fetch_tree(category=None, max_level=1e9):
             json_file.write("{}")
     with open(json_path, "r") as json_file:
         json_data = json.load(json_file)
-    nodes = fetch_subnodes(category="topic", max_level=max_level)
+    nodes = fetch_subnodes(category=category, max_level=max_level)
     json_data[category] = nodes
     json_data[category + "-timestamp"] = dt.datetime.now().isoformat()
     with open(json_path, "w") as json_file:
