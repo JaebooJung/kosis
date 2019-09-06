@@ -1,0 +1,2434 @@
+{
+  "local_org": [
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "서울특별시",
+      "acc_name": "서울특별시",
+      "acc_id": "11",
+      "id": "11",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서울특별시 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "종로구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "중구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "용산구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "성동구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "광진구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동대문구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "중랑구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "성북구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강북구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "도봉구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "노원구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "은평구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서대문구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "마포구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "양천구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강서구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "구로구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "금천구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영등포구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동작구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "관악구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서초구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강남구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "송파구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강동구 e-지방지표",
+          "list_names": "서울특별시",
+          "list_ids": "11",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "부산광역시",
+      "acc_name": "부산광역시",
+      "acc_id": "21",
+      "id": "21",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "부산광역시 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "중구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영도구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "부산진구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동래구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "북구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "해운대구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "사하구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "금정구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강서구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "연제구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "수영구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "사상구 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "기장군 e-지방지표",
+          "list_names": "부산광역시",
+          "list_ids": "21",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "대구광역시",
+      "acc_name": "대구광역시",
+      "acc_id": "22",
+      "id": "22",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "대구광역시 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "중구 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동구 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서구 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남구 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "북구 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "수성구 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "달서구 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "달성군 e-지방지표",
+          "list_names": "대구광역시",
+          "list_ids": "22",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "인천광역시",
+      "acc_name": "인천광역시",
+      "acc_id": "23",
+      "id": "23",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "인천광역시 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "중구 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동구 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남구 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "연수구 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남동구 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "부평구 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "계양구 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서구 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강화군 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "옹진군 e-지방지표",
+          "list_names": "인천광역시",
+          "list_ids": "23",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "광주광역시",
+      "acc_name": "광주광역시",
+      "acc_id": "24",
+      "id": "24",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "광주광역시 e-지방지표",
+          "list_names": "광주광역시",
+          "list_ids": "24",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동구 e-지방지표",
+          "list_names": "광주광역시",
+          "list_ids": "24",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서구 e-지방지표",
+          "list_names": "광주광역시",
+          "list_ids": "24",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남구 e-지방지표",
+          "list_names": "광주광역시",
+          "list_ids": "24",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "북구 e-지방지표",
+          "list_names": "광주광역시",
+          "list_ids": "24",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "광산구 e-지방지표",
+          "list_names": "광주광역시",
+          "list_ids": "24",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "대전광역시",
+      "acc_name": "대전광역시",
+      "acc_id": "25",
+      "id": "25",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "대전광역시 e-지방지표",
+          "list_names": "대전광역시",
+          "list_ids": "25",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동구 e-지방지표",
+          "list_names": "대전광역시",
+          "list_ids": "25",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "중구 e-지방지표",
+          "list_names": "대전광역시",
+          "list_ids": "25",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서구 e-지방지표",
+          "list_names": "대전광역시",
+          "list_ids": "25",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "유성구 e-지방지표",
+          "list_names": "대전광역시",
+          "list_ids": "25",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "대덕구 e-지방지표",
+          "list_names": "대전광역시",
+          "list_ids": "25",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "울산광역시",
+      "acc_name": "울산광역시",
+      "acc_id": "26",
+      "id": "26",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "울산광역시 e-지방지표",
+          "list_names": "울산광역시",
+          "list_ids": "26",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "중구 e-지방지표",
+          "list_names": "울산광역시",
+          "list_ids": "26",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남구 e-지방지표",
+          "list_names": "울산광역시",
+          "list_ids": "26",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동구 e-지방지표",
+          "list_names": "울산광역시",
+          "list_ids": "26",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "북구 e-지방지표",
+          "list_names": "울산광역시",
+          "list_ids": "26",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "울주군 e-지방지표",
+          "list_names": "울산광역시",
+          "list_ids": "26",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "세종특별자치시",
+      "acc_name": "세종특별자치시",
+      "acc_id": "101_27",
+      "id": "101_27",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "세종특별자치시 e-지방지표",
+          "list_names": "세종특별자치시",
+          "list_ids": "101_27",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "경기도",
+      "acc_name": "경기도",
+      "acc_id": "31",
+      "id": "31",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "경기도 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "수원시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "성남시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "의정부시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "안양시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "부천시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "광명시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "평택시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동두천시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "안산시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "고양시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "과천시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "구리시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남양주시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "오산시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "시흥시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "군포시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "의왕시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "하남시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "용인시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "파주시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "이천시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "여주시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "안성시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "김포시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "화성시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "광주시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "양주시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "포천시 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "여주군 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "연천군 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "가평군 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "양평군 e-지방지표",
+          "list_names": "경기도",
+          "list_ids": "31",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "강원도",
+      "acc_name": "강원도",
+      "acc_id": "32",
+      "id": "32",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강원도 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "춘천시 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "원주시 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강릉시 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "동해시 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "태백시 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "속초시 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "삼척시 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "홍천군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "횡성군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영월군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "평창군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "정선군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "철원군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "화천군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "양구군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "인제군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "고성군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "양양군 e-지방지표",
+          "list_names": "강원도",
+          "list_ids": "32",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "충청북도",
+      "acc_name": "충청북도",
+      "acc_id": "33",
+      "id": "33",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "충청북도 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "통합청주시 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "청주시 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "충주시 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "제천시 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "청원군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "보은군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "옥천군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영동군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "진천군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "괴산군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "음성군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "단양군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "증평군 e-지방지표",
+          "list_names": "충청북도",
+          "list_ids": "33",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "충청남도",
+      "acc_name": "충청남도",
+      "acc_id": "34",
+      "id": "34",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "충청남도 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "천안시 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "공주시 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "보령시 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "아산시 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서산시 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "논산시 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "계룡시 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "금산군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "연기군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "부여군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "서천군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "당진시 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "청양군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "홍성군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "예산군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "태안군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "당진군 e-지방지표",
+          "list_names": "충청남도",
+          "list_ids": "34",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "전라북도",
+      "acc_name": "전라북도",
+      "acc_id": "35",
+      "id": "35",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "전라북도 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "전주시 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "군산시 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "익산시 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "정읍시 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남원시 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "김제시 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "완주군 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "진안군 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "무주군 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "장수군 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "임실군 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "순창군 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "고창군 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "부안군 e-지방지표",
+          "list_names": "전라북도",
+          "list_ids": "35",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "전라남도",
+      "acc_name": "전라남도",
+      "acc_id": "36",
+      "id": "36",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "전라남도 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "목포시 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "여수시 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "순천시 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "나주시 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "광양시 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "담양군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "곡성군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "구례군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "고흥군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "보성군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "화순군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "장흥군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "강진군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "해남군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영암군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "무안군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "함평군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영광군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "장성군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "완도군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "진도군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "신안군 e-지방지표",
+          "list_names": "전라남도",
+          "list_ids": "36",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "경상북도",
+      "acc_name": "경상북도",
+      "acc_id": "37",
+      "id": "37",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "경상북도 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "포항시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "경주시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "김천시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "안동시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "구미시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영주시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영천시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "상주시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "문경시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "경산시 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "군위군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "의성군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "청송군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영양군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "영덕군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "청도군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "고령군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "성주군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "칠곡군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "예천군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "봉화군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "울진군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "울릉군 e-지방지표",
+          "list_names": "경상북도",
+          "list_ids": "37",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "경상남도",
+      "acc_name": "경상남도",
+      "acc_id": "38",
+      "id": "38",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "경상남도 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "통합창원시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "창원시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "마산시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "진주시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "진해시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "통영시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "사천시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "김해시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "밀양시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "거제시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "양산시 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "의령군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "함안군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "창녕군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "고성군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "남해군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "하동군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "산청군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "함양군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "거창군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        },
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "합천군 e-지방지표",
+          "list_names": "경상남도",
+          "list_ids": "38",
+          "id": "DT_1YL0000_1",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "local_org",
+      "type": "list",
+      "name": "제주도",
+      "acc_name": "제주도",
+      "acc_id": "39",
+      "id": "39",
+      "children": [
+        {
+          "category": "local_org",
+          "type": "table",
+          "name": "제주도 e-지방지표",
+          "list_names": "제주도",
+          "list_ids": "39",
+          "id": "DT_1YL0000",
+          "org_id": "101"
+        }
+      ]
+    }
+  ],
+  "local_org-timestamp": "2019-09-06T16:53:06.895943"
+}

@@ -3,6 +3,7 @@
 import datetime as dt
 import json
 import os.path
+import webbrowser
 from string import Template
 
 import requests
@@ -19,6 +20,7 @@ __all__ = [
     "search_tables",
     "search_tables_by_id",
     "get_table_metainfo",
+    "get_table_url",
 ]
 
 dict_wv_code = {
@@ -27,14 +29,10 @@ dict_wv_code = {
     "MT_GTITLE01": "지방지표 주제별",
     "MT_GTITLE02": "지방지표 지역별",
     "MT_GTITLE03": "지방지표 테마별",
-    "MT_CHOSUN_TITLE": "광복이전 통계",
-    "MT_HANKUK_TITLE": "한국통계연감",
-    "MT_STOP_TITLE": "작성중지통계",
-    "MT_RTITLE": "국제통계",
-    "MT_BUKHAN": "북한통계",
     "MT_TM1_TITLE": "대상별 통계",
     "MT_TM2_TITLE": "이슈별 통계",
-    "MT_ETITLE": "영문통계"
+    "MT_HANKUK_TITLE": "한국통계연감",
+    "MT_RTITLE": "국제통계",
 }
 
 category2wv_code = {
@@ -43,14 +41,10 @@ category2wv_code = {
     "local_topic": "MT_GTITLE01",
     "local_org": "MT_GTITLE02",
     "local_theme": "MT_GTITLE03",
-    "chosun": "MT_CHOSUN_TITLE",
-    "yearbook": "MT_HANKUK_TITLE",
-    "stopped": "MT_STOP_TITLE",
-    "global": "MT_RTITLE",
-    "north": "MT_BUKHAN",
     "age": "MT_TM1_TITLE",
     "issue": "MT_TM2_TITLE",
-    "english": "MT_ETITLE",
+    "yearbook": "MT_HANKUK_TITLE",
+    "global": "MT_RTITLE",
 }
 
 
@@ -203,25 +197,42 @@ def get_tables(category="topic"):
     return result
 
 
-def search_tables(key, search_listname=False, category="topic"):
+def search_tables(key, search_listname=False, category=None):
     """키워드로 테이블 검색"""
-    tables = get_tables(category)
     result = []
-    for t in tables:
-        if t["name"].strip().find(key) >= 0:
-            result.append(t)
-        if search_listname and t["list_names"].strip().find(key) >= 0:
-            result.append(t)
+    if category is None:
+        for category in category2wv_code.keys():
+            tables = get_tables(category=category)
+            for t in tables:
+                if t["name"].strip().find(key) >= 0:
+                    result.append(t)
+                if search_listname and t["list_names"].strip().find(key) >= 0:
+                    result.append(t)
+    else:
+        tables = get_tables(category=category)
+        for t in tables:
+            if t["name"].strip().find(key) >= 0:
+                result.append(t)
+            if search_listname and t["list_names"].strip().find(key) >= 0:
+                result.append(t)
     return result
 
 
-def search_tables_by_id(table_id, category="topic"):
+def search_tables_by_id(table_id, category=None):
     """테이블 아이디로 테이블 검색"""
-    tables = get_tables(category)
-    for t in tables:
-        if t["id"] == table_id:
-            return t
-    return None
+    matched_tables = []
+    if category is None:
+        for category in category2wv_code.keys():
+            tables = get_tables(category)
+            for t in tables:
+                if t["id"] == table_id:
+                    matched_tables.append(t)
+    else:
+        tables = get_tables(category)
+        for t in tables:
+            if t["id"] == table_id:
+                matched_tables.append(t)
+    return matched_tables
 
 
 def print_nodes(nodes, max_level, parent_last):
@@ -260,7 +271,8 @@ def print_tree(list_id=None, max_level=1, category="topic"):
     else:
         result = []
         result = search_node(result, tree, list_id, by="id", with_children=True)
-        nodes = result[0]["children"]
+        if len(result) > 0:
+            nodes = result[0]["children"]
     print_nodes(nodes, max_level, [])
 
 
@@ -297,17 +309,38 @@ def get_table_metainfo(table_id, org_id=None):
     params.update({"type": "ITM"})
     res = requests.get(url, params=params)
     data = xmltodict.parse(res.content.decode("utf-8"), dict_constructor=dict)
-    item = data["response"]["Structures"]["MetaRow"]
+    items = data["response"]["Structures"]["MetaRow"]
+    item = {}
+    for i in items:
+        obj_id = i["objId"]
+        obj_name = i["objNm"]
+        item_id = i["itmId"]
+        item_name = i["itmNm"]
+        if (obj_id, obj_name) not in item:
+            item[(obj_id, obj_name)] = [(item_id, item_name)]
+        else:
+            item[(obj_id, obj_name)].append((item_id, item_name))
 
     params.update({"type": "PRD"})
     res = requests.get(url, params=params)
     data = xmltodict.parse(res.content.decode("utf-8"), dict_constructor=dict)
-    duration = data["response"]["Structures"]
+    time = data["response"]["Structures"]
 
     all_data = {
         "table_name": table_name,
         "org_name": org_name,
         "item": item,
-        "duration": duration,
+        "time": time,
     }
     return all_data
+
+
+def get_table_url(table_id, org_id=None, category="topic", open_browser=False):
+    if org_id is None:
+        table = search_tables_by_id(table_id, category=category)
+        org_id = table["org_id"]
+
+    url = "http://kosis.kr/statHtml/statHtml.do?orgId={0}&tblId={1}".format(org_id, table_id)
+    if open_browser:
+        webbrowser.open(url)
+    return url

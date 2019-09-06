@@ -1,0 +1,4530 @@
+{
+  "age": [
+    {
+      "category": "age",
+      "type": "list",
+      "name": "영유아",
+      "acc_name": "영유아",
+      "acc_id": "A01",
+      "id": "A01",
+      "children": [
+        {
+          "category": "age",
+          "type": "list",
+          "name": "영유아 인구현황",
+          "acc_name": "영유아;영유아 인구현황",
+          "acc_id": "A01;101_A0103",
+          "id": "101_A0103",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령 및 성별 인구 - 읍면동(2015), 시군구(2016~)",
+              "list_names": "영유아;영유아 인구현황",
+              "list_ids": "A01;101_A0103",
+              "id": "DT_1IN1503",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "총조사인구 총괄(읍면동/성/연령별)",
+              "list_names": "영유아;영유아 인구현황",
+              "list_ids": "A01;101_A0103",
+              "id": "DT_1IN0001",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "성 및 연령별 추계인구(1세별, 5세별) / 전국",
+              "list_names": "영유아;영유아 인구현황",
+              "list_ids": "A01;101_A0103",
+              "id": "DT_1BPA001",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "성 및 연령별 추계인구(1세별, 5세별)/시도",
+              "list_names": "영유아;영유아 인구현황",
+              "list_ids": "A01;101_A0103",
+              "id": "DT_1BPB001",
+              "org_id": "101"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "영유아 보육",
+          "acc_name": "영유아;영유아 보육",
+          "acc_id": "A01;A01_A01",
+          "id": "A01_A01",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "유치원 개황",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_1963003_001",
+              "org_id": "334"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "어린이집 현황(시·도)",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_15407_NN003",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "어린이집 보육교직원 현황",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_15407_NN006",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "전국 어린이집 정현원 현황",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_15407_NN004",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "육아종합지원센터",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_15407_NN010",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "특수보육어린이집 현황",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_15407_NN009",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "직장어린이집 현황",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_15407_NN008",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "양육수당 및 보육시설(이용여부)",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "TX_117_2013_H254",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "보육시설 이용비용",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "TX_117_2013_H255",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "생활비에서 차지하는 보육비·사교육비 비중",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "TX_117_2013_H279",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령 및 영유아별 어린이집 선택 이유",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_33107N_009",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "영유아 사망률",
+          "acc_name": "영유아;영유아 사망률",
+          "acc_id": "A01;A01_A01_1",
+          "id": "A01_A01_1",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "영아사망률",
+              "list_names": "영유아;영유아 사망률",
+              "list_ids": "A01;A01_A01_1",
+              "id": "DT_2KAA208",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "영아사망원인(67항목)/성/생존기간별 사망자수, 영아사망률(2005~)",
+              "list_names": "영유아;영유아 사망률",
+              "list_ids": "A01;A01_A01_1",
+              "id": "DT_1B34E08",
+              "org_id": "101"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "영유아 건강",
+          "acc_name": "영유아;영유아 건강",
+          "acc_id": "A01;A01_A01_4",
+          "id": "A01_A01_4",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별 성별 영유아 건강검진 종합판정현황",
+              "list_names": "영유아;영유아 건강",
+              "list_ids": "A01;A01_A01_4",
+              "id": "DT_35007_N126",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "영유아건강검진 시도별 성별 구강검진 종합판정 현황",
+              "list_names": "영유아;영유아 건강",
+              "list_ids": "A01;A01_A01_4",
+              "id": "DT_35007_N152",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령별 성별 구강검진 대상 및 수검인원 현황",
+              "list_names": "영유아;영유아 건강",
+              "list_ids": "A01;A01_A01_4",
+              "id": "DT_35007_N036",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 성별 구강검진 대상 및 수검인원 현황",
+              "list_names": "영유아;영유아 건강",
+              "list_ids": "A01;A01_A01_4",
+              "id": "DT_35007_N035",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 월령별 성별 평균 신장 분포 현황 : 영유아",
+              "list_names": "영유아;영유아 건강",
+              "list_ids": "A01;A01_A01_4",
+              "id": "DT_35007_N131",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 월령별 성별 평균 체중 분포 현황 : 영유아",
+              "list_names": "영유아;영유아 건강",
+              "list_ids": "A01;A01_A01_4",
+              "id": "DT_35007_N133",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별 성별 영유아 건강검진 대상 및 수검인원 현황",
+              "list_names": "영유아;영유아 건강",
+              "list_ids": "A01;A01_A01_4",
+              "id": "DT_35007_N124",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "영유아 건강검진 결과현황",
+              "list_names": "영유아;영유아 건강",
+              "list_ids": "A01;A01_A01_4",
+              "id": "DT_35007_N125",
+              "org_id": "350"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "아동",
+      "acc_name": "아동",
+      "acc_id": "A02",
+      "id": "A02",
+      "children": [
+        {
+          "category": "age",
+          "type": "list",
+          "name": "아동복지 및 보호",
+          "acc_name": "아동;아동복지 및 보호",
+          "acc_id": "A02;A0204",
+          "id": "A0204",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "관리센터현황(시설종별/시도별)",
+              "list_names": "아동;아동복지 및 보호",
+              "list_ids": "A02;A0204",
+              "id": "TX_117_2009_H7001",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "인증요원현황(시설종별/시도별)",
+              "list_names": "아동;아동복지 및 보호",
+              "list_ids": "A02;A0204",
+              "id": "TX_117_2009_H7002",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "보호대상아동 현황보고",
+              "list_names": "아동;아동복지 및 보호",
+              "list_ids": "A02;A0204",
+              "id": "TX_117341138",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가정위탁보호아동 현황",
+              "list_names": "아동;아동복지 및 보호",
+              "list_ids": "A02;A0204",
+              "id": "DT_11770_N005",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "아동복지시설수 및 보호아동현황 - 시도별",
+              "list_names": "아동;아동복지 및 보호",
+              "list_ids": "A02;A0204",
+              "id": "TX_117401121",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "아동입양",
+          "acc_name": "아동;아동입양",
+          "acc_id": "A02;A0207",
+          "id": "A0207",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "입양을 하고 싶지 않은 이유(19세 이상 인구)",
+              "list_names": "아동;아동입양",
+              "list_ids": "A02;A0207",
+              "id": "DT_1SSFA100R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "입양에 대한 견해(19세 이상 인구)",
+              "list_names": "아동;아동입양",
+              "list_ids": "A02;A0207",
+              "id": "DT_1SSFA090R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "국내외입양현황",
+              "list_names": "아동;아동입양",
+              "list_ids": "A02;A0207",
+              "id": "DT_11770N001",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "아동학대",
+          "acc_name": "아동;아동학대",
+          "acc_id": "A02;A02_A02_1",
+          "id": "A02_A02_1",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "신고접수 건수",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ004",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "아동학대사례 유형 I (중복학대 별도 분류)",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ022",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "아동학대사례 유형 Ⅱ(중복학대 미분류)",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ023",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사망아동 사례 발생 건수",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "DT_117_2015_SMA001",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "재학대 사례 발생 건수",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "DT_117_2015_YH065",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "피해아동 가족유형",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ042",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "피해아동 성별 및 연령",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ037",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "피해아동 초기조치결과",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ047",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "피해아동 특성",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ045",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자와 피해아동과의 관계",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ084",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자 특성",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "TX_117_2009_HJ086",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "지난 1년간 자녀학대율",
+              "list_names": "아동;아동학대",
+              "list_ids": "A02;A02_A02_1",
+              "id": "DT_MOGE_1001000417",
+              "org_id": "154"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "아동·청소년 인권",
+          "acc_name": "아동;아동·청소년 인권",
+          "acc_id": "A02;A02_A02_5",
+          "id": "A02_A02_5",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "인권 관련 협약 및 기관 인지도",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_001_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자신의 인권 존중 정도",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_002_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여러 인권 상황에 대한 생각",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_003_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "인권교육 경험여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_004",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "인권교육 경험 장소",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_004_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "인권교육의 도움 정도",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_004_2",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "차별받은 경험",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_005_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "차별해 본 경험",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_006_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "의사결정 시 부모님(보호자) 태도",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_007_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학생회 활동",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_008_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학급회의 운영여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_009",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학급회의 참여정도",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_009_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학생회 대표의 학교운영위원회 참여",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_010",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학교규칙 제개정 시 학생 참여정도",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_011_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "아동청소년 참여기구 인지 여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_012",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "투표 연령에 대한 의견",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_013",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "아동청소년 참여권 보장수준",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_014",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "우리 사회에서 청소년 참여가 어려운 이유",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_015",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사상양심의 자유보장",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_016_2",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "종교재단 학교 여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_017",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "종교의 자유 보장수준",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_017_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사회문제 관련 참여활동",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_018_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사회문제 관련 참여활동으로 인한 피해 경험",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_018_3",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학교에서 각종 검사여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_019_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "개인정보 보호",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_011_2",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "정보접근권",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_020_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "체벌 경험여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_021_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "욕설 경험여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_021_2",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "친구, 선후배로부터 폭력 경험여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_022_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사이버공간에서의 피해 경험여부",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_023_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가정 내 방임",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_024_1",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가출 여부 및 이유",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_025",
+              "org_id": "402"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가출 후 이용 기관 및 서비스 만족도",
+              "list_names": "아동;아동·청소년 인권",
+              "list_ids": "A02;A02_A02_5",
+              "id": "DT_ES2017_025_2",
+              "org_id": "402"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "학생",
+      "acc_name": "학생",
+      "acc_id": "A04",
+      "id": "A04",
+      "children": [
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학생의 학교생활 만족도(교육내용, 중·고 재학생)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED011R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학생의 학교생활 만족도(교육방법, 중·고 재학생)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED012R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학생의 학교생활 만족도(교우관계, 중·고 재학생)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED013R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학생의 학교생활 만족도(교사와의 관계, 중·고 재학생)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED014R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학생의 학교생활 만족도(학교시설 및 설비, 중·고 재학생)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED015R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학생의 학교생활 만족도(학교주변 환경, 중·고 재학생)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED016R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학생의 학교생활 만족도(전반적인 학교생활, 중·고 재학생)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED019R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학생의 기대하는 교육수준 및 목적",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED020R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "부모의 자녀 기대 교육 수준 및 교육목적(30세 이상 인구)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED080R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "자녀유학에 대한 견해 및 이유(주된응답, 30세 이상 인구)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED091R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "자녀유학에 대한 견해 및 이유(복수응답, 30세 이상 인구)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1SSED092R",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학교급 및 특성별 학생 1인당 사교육 참여시간(주당 평균)",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1PE103",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학교급 및 시도별  학생 1인당 월평균 사교육비",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1PE105",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학교급별 사교육비 총액",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1PE003",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학교급별  학생 1인당 월평균 사교육비",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1PE201",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "학교급별 사교육 참여율",
+          "list_names": "학생",
+          "list_ids": "A04",
+          "id": "DT_1PE301",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "중고등학생",
+          "acc_name": "학생;중고등학생",
+          "acc_id": "A04;A04_A2",
+          "id": "A04_A2",
+          "children": [
+            {
+              "category": "age",
+              "type": "list",
+              "name": "청소년 고민",
+              "acc_name": "학생;중고등학생;청소년 고민",
+              "acc_id": "A04_A2;A0403",
+              "id": "A0403",
+              "children": [
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년이 고민하는 문제(주된응답, 13~24세 인구)",
+                  "list_names": "학생;중고등학생;청소년 고민",
+                  "list_ids": "A04;A04_A2;A0403",
+                  "id": "DT_1SSFA141R",
+                  "org_id": "101"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년이 고민하는 문제(복수응답, 13~24세 인구)",
+                  "list_names": "학생;중고등학생;청소년 고민",
+                  "list_ids": "A04;A04_A2;A0403",
+                  "id": "DT_1SSFA142R",
+                  "org_id": "101"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년 고민상담 대상(13~24세 인구)",
+                  "list_names": "학생;중고등학생;청소년 고민",
+                  "list_ids": "A04;A04_A2;A0403",
+                  "id": "DT_1SSFA150R",
+                  "org_id": "101"
+                }
+              ]
+            },
+            {
+              "category": "age",
+              "type": "list",
+              "name": "가출 청소년",
+              "acc_name": "학생;중고등학생;가출 청소년",
+              "acc_id": "A04_A2;A04_3_1",
+              "id": "A04_3_1",
+              "children": [
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "가출을 고민해 본 경험",
+                  "list_names": "학생;중고등학생;가출 청소년",
+                  "list_ids": "A04;A04_A2;A04_3_1",
+                  "id": "DT_MOGE_1540002712",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "가출 경험 여부 및 가출 횟수",
+                  "list_names": "학생;중고등학생;가출 청소년",
+                  "list_ids": "A04;A04_A2;A04_3_1",
+                  "id": "DT_MOGE_1540002713",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "가장 최근에 한 가출 기간",
+                  "list_names": "학생;중고등학생;가출 청소년",
+                  "list_ids": "A04;A04_A2;A04_3_1",
+                  "id": "DT_MOGE_1540002714",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "가출의 주된 원인",
+                  "list_names": "학생;중고등학생;가출 청소년",
+                  "list_ids": "A04;A04_A2;A04_3_1",
+                  "id": "DT_MOGE_1540002715",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "가출 청소년 보호/상담기관 인지 여부 및 이용 경험: 청소년쉼터",
+                  "list_names": "학생;중고등학생;가출 청소년",
+                  "list_ids": "A04;A04_A2;A04_3_1",
+                  "id": "DT_MOGE_1540002716",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "가출 청소년 보호/상담기관 인지 여부 및 이용 경험: 청소년상담복지센터",
+                  "list_names": "학생;중고등학생;가출 청소년",
+                  "list_ids": "A04;A04_A2;A04_3_1",
+                  "id": "DT_MOGE_1540002717",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "가출 청소년 보호/상담기관 인지 여부 및 이용 경험: 청소년전화 1388",
+                  "list_names": "학생;중고등학생;가출 청소년",
+                  "list_ids": "A04;A04_A2;A04_3_1",
+                  "id": "DT_MOGE_1540002718",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "가출 청소년 보호/상담기관에서 제공받은 서비스(복수응답)",
+                  "list_names": "학생;중고등학생;가출 청소년",
+                  "list_ids": "A04;A04_A2;A04_3_1",
+                  "id": "DT_MOGE_1540002719",
+                  "org_id": "154"
+                }
+              ]
+            },
+            {
+              "category": "age",
+              "type": "list",
+              "name": "청소년과 성",
+              "acc_name": "학생;중고등학생;청소년과 성",
+              "acc_id": "A04_A2;A04_A2_A04_3_2",
+              "id": "A04_A2_A04_3_2",
+              "children": [
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "성관계 경험률",
+                  "list_names": "학생;중고등학생;청소년과 성",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_2",
+                  "id": "DT_117_12_Y056",
+                  "org_id": "117"
+                }
+              ]
+            },
+            {
+              "category": "age",
+              "type": "list",
+              "name": "청소년과 학교폭력",
+              "acc_name": "학생;중고등학생;청소년과 학교폭력",
+              "acc_id": "A04_A2;A04_A2_A04_3_3",
+              "id": "A04_A2_A04_3_3",
+              "children": [
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "다문화가족 자녀의 학교폭력 피해 경험 여부",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1001300983",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "다문화가족 자녀의 학교폭력 피해 유형(복수응답)",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1001300984",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "다문화가족 자녀의 학교폭력 대응 방법(복수응답)",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1001300985",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력 피해 경험: 욕설이나 무시하는 말을 지속적으로 들음",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002646",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력 피해 경험: 맞거나 발로 차이거나 물건으로 인해 다침",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002647",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력 피해 경험: 돈이나 물건을 빼앗김",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002688",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력 피해 경험: 때리거나 괴롭히겠다고 위협을 당함",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002689",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력 피해 경험: 왕따(따돌림)를 당함",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002650",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력 피해 경험: 강제 심부름을 당함",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002691",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력 피해 경험: 사이버상의 따돌림이나 괴롭힘을 당함",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002652",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력 피해 경험 장소",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002693",
+                  "org_id": "154"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "청소년폭력의 주된 가해자",
+                  "list_names": "학생;중고등학생;청소년과 학교폭력",
+                  "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
+                  "id": "DT_MOGE_1540002654",
+                  "org_id": "154"
+                }
+              ]
+            },
+            {
+              "category": "age",
+              "type": "list",
+              "name": "신체활동",
+              "acc_name": "학생;중고등학생;신체활동",
+              "acc_id": "A04_A2;A04_A2_A5",
+              "id": "A04_A2_A5",
+              "children": [
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "주3일 이상 격렬한 신체활동 실천율",
+                  "list_names": "학생;중고등학생;신체활동",
+                  "list_ids": "A04;A04_A2;A04_A2_A5",
+                  "id": "DT_117_12_Y035",
+                  "org_id": "117"
+                },
+                {
+                  "category": "age",
+                  "type": "table",
+                  "name": "운동",
+                  "list_names": "학생;중고등학생;신체활동",
+                  "list_ids": "A04;A04_A2;A04_A2_A5",
+                  "id": "DT_MOGE_3020300541",
+                  "org_id": "154"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "대학생",
+          "acc_name": "학생;대학생",
+          "acc_id": "A04;A04_A3",
+          "id": "A04_A3",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "대학교 학생수(시도/시/군/구)",
+              "list_names": "학생;대학생",
+              "list_ids": "A04;A04_A3",
+              "id": "DT_1YL8801",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "대학생 등록금 마련 방법(대학생)",
+              "list_names": "학생;대학생",
+              "list_ids": "A04;A04_A3",
+              "id": "DT_1SSED030R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "전공과 직업의 일치도(13세 이상 인구)",
+              "list_names": "학생;대학생",
+              "list_ids": "A04;A04_A3",
+              "id": "DT_1SSED050R",
+              "org_id": "101"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "신혼부부",
+      "acc_name": "신혼부부",
+      "acc_id": "A14",
+      "id": "A14",
+      "children": [
+        {
+          "category": "age",
+          "type": "table",
+          "name": "시도별 신혼부부 총괄",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1001",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "시도별 혼인연차별 신혼부부 수",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1002",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "신혼부부 특성별 혼인종류별 신혼부부 수",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1003",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "혼인연차별 혼인연령별 신혼부부수",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1004",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "신혼부부 특성별 혼인종류별 평균 혼인연령",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1005",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "시도별 직업별 신혼부부수",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1007",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "시도별 다문화혼인별 신혼부부수",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1010",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "신혼부부 특성별 평균 출생아수",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1020",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "신혼부부 특성별 맞벌이여부별 신혼부부수",
+          "list_names": "신혼부부",
+          "list_ids": "A14",
+          "id": "DT_1NW1026",
+          "org_id": "101"
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "노인",
+      "acc_name": "노인",
+      "acc_id": "A05",
+      "id": "A05",
+      "children": [
+        {
+          "category": "age",
+          "type": "list",
+          "name": "고령자(노인) 현황",
+          "acc_name": "노인;고령자(노인) 현황",
+          "acc_id": "A05;101_A0502",
+          "id": "101_A0502",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "부양비 및 노령화지수",
+              "list_names": "노인;고령자(노인) 현황",
+              "list_ids": "A05;101_A0502",
+              "id": "DT_2KAA202",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주요 인구지표(성비,인구성장률,인구구조,부양비 등) / 전국",
+              "list_names": "노인;고령자(노인) 현황",
+              "list_ids": "A05;101_A0502",
+              "id": "DT_1BPA002",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주요 인구지표(성비,인구성장률,인구구조,부양비 등)/시도",
+              "list_names": "노인;고령자(노인) 현황",
+              "list_ids": "A05;101_A0502",
+              "id": "DT_1BPB002",
+              "org_id": "101"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "노인소득",
+          "acc_name": "노인;노인소득",
+          "acc_id": "A05;A0504",
+          "id": "A0504",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 연간 총소득, 소득항목별 금액 및 구성 비율(가구소득)",
+              "list_names": "노인;노인소득",
+              "list_ids": "A05;A0504",
+              "id": "DT_117071_029",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 연간 총소득, 소득항목별 금액 및 구성 비율(개인소득)",
+              "list_names": "노인;노인소득",
+              "list_ids": "A05;A0504",
+              "id": "DT_117071_030",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "노후준비",
+          "acc_name": "노인;노후준비",
+          "acc_id": "A05;A05_A05_5",
+          "id": "A05_A05_5",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노후 준비방법 (주된응답, 19세 이상 가구주)",
+              "list_names": "노인;노후준비",
+              "list_ids": "A05;A05_A05_5",
+              "id": "DT_1SSWE131R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노후 준비방법 (복수응답, 19세 이상 가구주)",
+              "list_names": "노인;노후준비",
+              "list_ids": "A05;A05_A05_5",
+              "id": "DT_1SSWE132R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노후 준비방법 (주된응답, 19세 이상 인구)",
+              "list_names": "노인;노후준비",
+              "list_ids": "A05;A05_A05_5",
+              "id": "DT_1SSWE133R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노후 준비방법 (복수응답, 19세 이상 인구)",
+              "list_names": "노인;노후준비",
+              "list_ids": "A05;A05_A05_5",
+              "id": "DT_1SSWE134R",
+              "org_id": "101"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "노인요양",
+          "acc_name": "노인;노인요양",
+          "acc_id": "A05;A05_A05_6",
+          "id": "A05_A05_6",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시·도별 등급별 자격별 주거상태 현황",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N011",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연도별 장기요양 재정현황",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N023",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시·군·구별 장기요양기관 전문인력 현황",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N022",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시·군·구별 급여종류별 장기요양기관 현황",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N021",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시·도별 설립구분별 급여종류별 장기요양기관 현황",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N020",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연도별 시·도별 급여종류별 장기요양기관 현황",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N019",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "월별 급여종류별 장기요양 급여실적",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N035",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장기요양기관 소재지별 장기요양 급여실적",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N034",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령별 자격별 급여종류별 장기요양 급여실적",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N032",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시·군·구별 등급별 급여종류별 장기요양 급여실적",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N030",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시·도별 등급별 자격별 주수발자 현황",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N013",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연도별 65세이상 의료보장 적용인구 현황",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N001",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시·군·구별 등급별 자격별 판정 현황(계)",
+              "list_names": "노인;노인요양",
+              "list_ids": "A05;A05_A05_6",
+              "id": "DT_35006_N007",
+              "org_id": "350"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "노인학대",
+          "acc_name": "노인;노인학대",
+          "acc_id": "A05;A05_A05_7",
+          "id": "A05_A05_7",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "신고접수 건수",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5002",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "재학대피해노인 성별 및 연령대",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5058",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "재학대 건수 및 비율",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5057",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "재학대피해노인 학대유형",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5059",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대피해노인 치매정도",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5052",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대피해노인 생활수준별 현황",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5046",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자와의 동거여부",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5043",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "신고의무자 대상 노인학대 예방교육실시 현황",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5075",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대피해노인 연령대별 학대 유형",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5040",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대 유형",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5024",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자 교육 정도",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5065",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "비신고의무자 대상 노인학대 예방교육실시 현황",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5074",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대피해노인 제공서비스 현황",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5072",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자 성별 연령분포",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5061",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자의 학대 원인",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5070",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자 직업유형",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5067",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자 생활수준별 현황",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5066",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대행위자 중독유형",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5069",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학대피해노인 성별 노인학대 유형",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5038",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "신고의무자 대상 노인학대 예방교육 참석 현황",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5077",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인학대 사례판정 건수, 비율",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5031",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "신고자유형별 신고건수",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5014",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "전체 상담횟수",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5006",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사례개입 중사망한 학대피해노인의 성별 연령 분포",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5036",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사례판정별 노인학대 유형",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5032",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "종결사유",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5034",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 노인학대 신고접수 건수, 접수율",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5003",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "발생장소별 노인학대 건수, 비율",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5018",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 노인학대 사건 현장조사건수, 방문상담실시건수",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5029",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "발생빈도별 노인학대유형",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5020",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "65세 인구 수 대비 학대피해노인 성별 분포",
+              "list_names": "노인;노인학대",
+              "list_ids": "A05;A05_A05_7",
+              "id": "TX_117_2009_H5037",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "노인일자리",
+          "acc_name": "노인;노인일자리",
+          "acc_id": "A05;A05_A0507",
+          "id": "A05_A0507",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령별 경제활동인구 총괄",
+              "list_names": "노인;노인일자리",
+              "list_ids": "A05;A05_A0507",
+              "id": "DT_1DA7002S",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 경제활동 실태",
+              "list_names": "노인;노인일자리",
+              "list_ids": "A05;A05_A0507",
+              "id": "DT_117071_033",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 현재 일을 하는 이유",
+              "list_names": "노인;노인일자리",
+              "list_ids": "A05;A05_A0507",
+              "id": "DT_117071_034",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 향후 경제활동 참여 형태",
+              "list_names": "노인;노인일자리",
+              "list_ids": "A05;A05_A0507",
+              "id": "DT_117071_035",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 노인일자리 참여경험",
+              "list_names": "노인;노인일자리",
+              "list_ids": "A05;A05_A0507",
+              "id": "DT_117071_036",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "노후 생활 인식",
+          "acc_name": "노인;노후 생활 인식",
+          "acc_id": "A05;A05_A05_8",
+          "id": "A05_A05_8",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 건강상태 만족도",
+              "list_names": "노인;노후 생활 인식",
+              "list_ids": "A05;A05_A05_8",
+              "id": "DT_117071_006",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 경제상태에 대한 만족도",
+              "list_names": "노인;노후 생활 인식",
+              "list_ids": "A05;A05_A05_8",
+              "id": "DT_117071_007",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 자녀와의 관계 만족도",
+              "list_names": "노인;노후 생활 인식",
+              "list_ids": "A05;A05_A05_8",
+              "id": "DT_117071_008",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 노인연령에 대한 인지",
+              "list_names": "노인;노후 생활 인식",
+              "list_ids": "A05;A05_A05_8",
+              "id": "DT_117071_009",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 노후 자녀와의 동거 희망률, 희망자녀",
+              "list_names": "노인;노후 생활 인식",
+              "list_ids": "A05;A05_A05_8",
+              "id": "DT_117071_010",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 이상적인 노후 생활비 마련 방법",
+              "list_names": "노인;노후 생활 인식",
+              "list_ids": "A05;A05_A05_8",
+              "id": "DT_117071_011",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 자살생각 이유 및 시도",
+              "list_names": "노인;노후 생활 인식",
+              "list_ids": "A05;A05_A05_8",
+              "id": "DT_117071_013",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "노인의 희망하는 본인의 장례방법",
+              "list_names": "노인;노후 생활 인식",
+              "list_ids": "A05;A05_A05_8",
+              "id": "DT_117071_012",
+              "org_id": "117"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "여성",
+      "acc_name": "여성",
+      "acc_id": "A06",
+      "id": "A06",
+      "children": [
+        {
+          "category": "age",
+          "type": "list",
+          "name": "여성의 경제활동",
+          "acc_name": "여성;여성의 경제활동",
+          "acc_id": "A06;A0601",
+          "id": "A0601",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "성별 경제활동인구 총괄",
+              "list_names": "여성;여성의 경제활동",
+              "list_ids": "A06;A0601",
+              "id": "DT_1DA7001S",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "행정구역(시도)/성별 실업자",
+              "list_names": "여성;여성의 경제활동",
+              "list_ids": "A06;A0601",
+              "id": "DT_1DA7088S",
+              "org_id": "101"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "가사 분담 현황",
+          "acc_name": "여성;가사 분담 현황",
+          "acc_id": "A06;A0606",
+          "id": "A0606",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가사 분담 실태(부인, 19세 이상 인구)",
+              "list_names": "여성;가사 분담 현황",
+              "list_ids": "A06;A0606",
+              "id": "DT_1SSFA121R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가사 분담 실태(남편, 19세 이상 인구)",
+              "list_names": "여성;가사 분담 현황",
+              "list_ids": "A06;A0606",
+              "id": "DT_1SSFA122R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가사 분담에 대한 견해(가구주)",
+              "list_names": "여성;가사 분담 현황",
+              "list_ids": "A06;A0606",
+              "id": "DT_1SSFA111R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가사 분담에 대한 견해(13세 이상 인구)",
+              "list_names": "여성;가사 분담 현황",
+              "list_ids": "A06;A0606",
+              "id": "DT_1SSFA112R",
+              "org_id": "101"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "여성과학기술인력활용",
+          "acc_name": "여성;여성과학기술인력활용",
+          "acc_id": "A06;A06_07",
+          "id": "A06_07",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "기관유형별 고용형태별 과학기술연구개발인력 현황",
+              "list_names": "여성;여성과학기술인력활용",
+              "list_ids": "A06;A06_07",
+              "id": "DT_B01128_FRM105900",
+              "org_id": "127"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "기관유형별 정규직 과학기술연구개발인력 전공별 현황",
+              "list_names": "여성;여성과학기술인력활용",
+              "list_ids": "A06;A06_07",
+              "id": "DT_B01140_FRM10590",
+              "org_id": "127"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "기관유형별 정규직 과학기술연구개발인력 시·도별 현황",
+              "list_names": "여성;여성과학기술인력활용",
+              "list_ids": "A06;A06_07",
+              "id": "DT_B01104_FRM105900",
+              "org_id": "127"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "공공 및 민간기업연구기관 과학기술연구개발인력 직급·고용형태별 현황",
+              "list_names": "여성;여성과학기술인력활용",
+              "list_ids": "A06;A06_07",
+              "id": "DT_B01130_FRM105900",
+              "org_id": "127"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "기관유형별 정규직 과학기술연구개발인력 신규채용 및 직전경력",
+              "list_names": "여성;여성과학기술인력활용",
+              "list_ids": "A06;A06_07",
+              "id": "DT_B02103_FRM10590",
+              "org_id": "127"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "기관유형별 여성과학기술연구개발인력 승진 현황",
+              "list_names": "여성;여성과학기술인력활용",
+              "list_ids": "A06;A06_07",
+              "id": "DT_B03010_FRM105900",
+              "org_id": "127"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "이공계대학 학제 및 설립유형별 연구과제예산별 연구과제 수 및 연구과제책임자 현황",
+              "list_names": "여성;여성과학기술인력활용",
+              "list_ids": "A06;A06_07",
+              "id": "DT_B05102_FRM105900",
+              "org_id": "127"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "직장어린이집 설치의무 해당여부에 따른 설치 현황",
+              "list_names": "여성;여성과학기술인력활용",
+              "list_ids": "A06;A06_07",
+              "id": "DT_B07118_FRM105900",
+              "org_id": "127"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "경력단절여성",
+          "acc_name": "여성;경력단절여성",
+          "acc_id": "A06;A06_08",
+          "id": "A06_08",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "평균 연령 및 연령 분포",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200001",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 당시의 일자리 산업",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200036",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 당시의 일자리 직업",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200039",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 당시의 일자리 사업체 복리 후생 제도-산전후휴가(출산전후휴가)",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200217",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 당시의 일자리 사업체 복리 후생 제도-육아휴직",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200219",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 당시의 직장을 그만둔 이유",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200071",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀양육 또는 교육 문제 해결 시 경력단절 당시 일자리 지속 여부",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200072",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 당시의 일자리 분위기-여성의 인사관리(임금, 승진 등)에서 불이익",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200077",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 이후 첫 일자리의 산업",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200088",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 이후 첫 일자리의 직업",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200091",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 이후 첫 일자리 형태",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200094",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 이후 첫 일자리 구직 시 애로사항(2개 응답)",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200135",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력단절 이후 첫 일자리 구직 경로",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200136",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "현재 일자리의 분위기-여성의 인사관리(임금, 승진 등)에서 불이익",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200183",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "현재 일자리의 사직의향 사유",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200185",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "경력유지를 위해 바라는 정부 정책(2개 응답)",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200250",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "창업 업종",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200201",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "창업 이유",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200202",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "취업,창업을 위한 바라는 정부정책(2개 응답)",
+              "list_names": "여성;경력단절여성",
+              "list_ids": "A06;A06_08",
+              "id": "DT_MOGE_3036200214",
+              "org_id": "154"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "여성범죄",
+          "acc_name": "여성;여성범죄",
+          "acc_id": "A06;A06_A06_4",
+          "id": "A06_A06_4",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 직업",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6102",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 공범관계",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6106",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 교육정도",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6109",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 범행동기",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6108",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 전회처분 종류",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6104",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 범행시 연령",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6101",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 구속·불구속 상황",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6111",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성재범자 재범종류 및 기간",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6105",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 마약류 등 상용여부",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6107",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 전과여부 및 횟수",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6103",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "여성범죄자 생활정도·혼인관계 및 부모관계",
+              "list_names": "여성;여성범죄",
+              "list_ids": "A06;A06_A06_4",
+              "id": "DT_13204_6110",
+              "org_id": "132"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "남성",
+      "acc_name": "남성",
+      "acc_id": "101_A11",
+      "id": "101_A11",
+      "children": [
+        {
+          "category": "age",
+          "type": "table",
+          "name": "행정구역(시도)/성별 경제활동인구",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_1DA7014S",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "행정구역(시도)/성별 취업자",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_1DA7030S",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "행정구역(시도)/성별 실업자",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_1DA7088S",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "시도별 평균초혼연령",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_1B83A05",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "시도/평균 이혼 연령",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_1B85011",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "시도별 평균재혼연령",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_1B83A10",
+          "org_id": "101"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "성역할 태도(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000422",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "동네 및 이웃에 대한 인식(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000427",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "부부폭력률(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000438",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "신체적 폭력 실태(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000439",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "정서적 폭력 실태(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000440",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "경제적 폭력 실태(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000441",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "성적 폭력 실태(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000442",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "통제 실태(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000443",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "부부폭력 첫 발생 시기(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000445",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "부부폭력이 일어나게 된 이유(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000447",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "자녀 훈육 방법(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000466",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "유형별 자녀학대 실태(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000470",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "자녀로부터의 폭력경험 실태(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000473",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "가정폭력에 대한 인식(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1001000512",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "성폭력 관련 인식(남성)",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_MOGE_1000400235",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "뇌졸중 의사진단경험률 추이 : 성별, 만30세이상",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_11702_N111",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "고콜레스테롤혈증 유병률 추이 : 성별, 만30세이상",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_11702_N103",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "당뇨병 유병률 추이 : 성별, 만30세이상",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_11702_N102",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "고혈압 유병률 추이 : 성별, 만30세이상",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_11702_N105",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "비만 유병률 추이 : 성별, 만19세이상",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_11702_N101",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "현재흡연율 추이 : 성별, 만19세이상",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_11702_N001",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "현재비흡연자의 가정실내 간접흡연노출률 추이 : 성별, 만19세이상",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_11702_N010",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "시군구별 남자 현재흡연율",
+          "list_names": "남성",
+          "list_ids": "101_A11",
+          "id": "DT_H_SM_MALE",
+          "org_id": "117"
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "환자",
+      "acc_name": "환자",
+      "acc_id": "A07",
+      "id": "A07",
+      "children": [
+        {
+          "category": "age",
+          "type": "table",
+          "name": "의료기관종별 환자 수",
+          "list_names": "환자",
+          "list_ids": "A07",
+          "id": "DT_117030_001",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "22대 상병별 외래환자 수, 구성비",
+          "list_names": "환자",
+          "list_ids": "A07",
+          "id": "DT_117030_002",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "22대 상병별 퇴원환자 수, 구성비",
+          "list_names": "환자",
+          "list_ids": "A07",
+          "id": "DT_117030_004",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "22대 상병별 퇴원환자 평균재원일수",
+          "list_names": "환자",
+          "list_ids": "A07",
+          "id": "DT_117030_003",
+          "org_id": "117"
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "암",
+          "acc_name": "환자;암",
+          "acc_id": "A07;101_A0701",
+          "id": "101_A0701",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "24개 암종/성/연령(5세)별 5년 암유병자수, 유병률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A00124",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "24개 암종/성/연령(5세)별 암발생자수, 발생률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A00023",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "24개 암종/성별 5년 암유병자수, 상대빈도, 조유병률, 연령표준화유병률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A00123",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "24개 암종/성별 암발생자수, 상대빈도, 조발생률, 연령표준화발생률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A00022",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "24개 암종/암발생 시기/성별 5년 상대생존율",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A00021",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "61개 암종/성/연령(5세)별 5년 암유병자수, 유병률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A00122",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "61개 암종/성/연령(5세)별 암발생자수, 발생률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A0024",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "61개 암종/성별 5년 암유병자수, 상대빈도, 조유병률, 연령표준화유병률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A00121",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "61개 암종/성별 암발생자수, 상대빈도, 조발생률, 연령표준화발생률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A00025",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "국제소아암분류 기준에 따른 소아암/성/암발생자수, 상대빈도, 조발생률, 연령표준화발생률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A11105",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "국제소아암분류 기준에 따른 소아암/성/연령(5세)별 발생률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A11107",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구 시기/24개 암종/성별 암발생자수, 상대빈도, 조발생률, 연령표준화발생률",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_117N_A11109",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령별 성별 신규 중증(암)등록환자의 진료현황",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "TX_35001_A057",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "요양기관시도별 신규 중증(암)등록환자의 암유형별 진료인원 현황",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "TX_35001_A059",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 신규 중증(암)등록환자의 암유형별 진료인원 현황",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "TX_35001_A058",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령별 성별 전체 중증(암)등록환자의 진료현황",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_35001_A0570",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 전체 중증(암)등록환자의 암유형별 등록인원 현황",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_35001_A090",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 신규 중증(암)등록환자의 암유형별 등록인원 현황",
+              "list_names": "환자;암",
+              "list_ids": "A07;101_A0701",
+              "id": "DT_35001_A089",
+              "org_id": "350"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "우울증",
+          "acc_name": "환자;우울증",
+          "acc_id": "A07;A07_A07_3",
+          "id": "A07_A07_3",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별 우울감 경험률",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "DT_H_MENTAL_DEPRESS",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "우울감 해소 방식",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "DT_MOGE_3021300330",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "최근 1년간 우울감 경험 여부",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "DT_MOGE_3021300329",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "우울감 경험률",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "DT_117_12_Y068",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별 성별 생애전환기 건강진단 정신건강검사 결과 : 기분상태 및 우울증",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "DT_35007_N118",
+              "org_id": "350"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주요우울장애 발병연령의 분포",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "TX_117_2009_HB102",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주요우울장애 일년유병율의 사회인구학적 분포",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "TX_117_2009_HB101",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주요우울장애와의 동반이환율",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "TX_117_2009_HB104",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "지역사회 역학조사에서 주요우울장애 유병율",
+              "list_names": "환자;우울증",
+              "list_ids": "A07;A07_A07_3",
+              "id": "TX_117_2009_HB100",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "스트레스",
+          "acc_name": "환자;스트레스",
+          "acc_id": "A07;A07_A07_4",
+          "id": "A07_A07_4",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "스트레스 정도(가정생활, 13세 이상 인구)",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_1SSHE121R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "스트레스 정도(직장생활, 13세 이상 인구)",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_1SSHE122R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "스트레스 정도(학교생활, 13세 이상 인구)",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_1SSHE123R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "스트레스 정도(전반적인 생활, 13세 이상 인구)",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_1SSHE124R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀양육의 어려움 - 자녀양육 스트레스(미취학 자녀)",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_MOGE_3021300229",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀양육의 어려움 - 양육 스트레스(중학생 이상)",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_MOGE_3021300240",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별 스트레스 인지율",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_H_MENTAL_STRESS",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "스트레스 인지율",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_117_12_Y067",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "스트레스인지율 추이 : 성별, 만19세이상",
+              "list_names": "환자;스트레스",
+              "list_ids": "A07;A07_A07_4",
+              "id": "DT_11702_N061",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "결핵환자",
+          "acc_name": "환자;결핵환자",
+          "acc_id": "A07;A07_A07_5",
+          "id": "A07_A07_5",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "결핵 신고 신환자 현황 - 결핵 유형별",
+              "list_names": "환자;결핵환자",
+              "list_ids": "A07;A07_A07_5",
+              "id": "DT_117N_A00101",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "결핵 신고 신환자 현황 - 지역별",
+              "list_names": "환자;결핵환자",
+              "list_ids": "A07;A07_A07_5",
+              "id": "DT_117N_A00104",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "결핵 신고 신환자 현황 - 신고기관별",
+              "list_names": "환자;결핵환자",
+              "list_ids": "A07;A07_A07_5",
+              "id": "DT_117N_A00103",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "결핵 신고 신환자 현황 - 성별 · 연령별",
+              "list_names": "환자;결핵환자",
+              "list_ids": "A07;A07_A07_5",
+              "id": "DT_117N_A00102",
+              "org_id": "117"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "장애인",
+      "acc_name": "장애인",
+      "acc_id": "A08",
+      "id": "A08",
+      "children": [
+        {
+          "category": "age",
+          "type": "list",
+          "name": "장애인 현황",
+          "acc_name": "장애인;장애인 현황",
+          "acc_id": "A08;A08_A08_1",
+          "id": "A08_A08_1",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "전국 장애유형별,성별 등록장애인수",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11761_N001",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "전국 연령별,장애등급별,성별 등록장애인수",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11761_N002",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "전국 연령별,장애유형별,성별 등록장애인수",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11761_N003",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별,장애유형별,장애등급별,성별 등록장애인수",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11761_N004",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별,장애유형별,성별 등록장애인수",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11761_N005",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별,장애등급별,성별 등록장애인수",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11761_N006",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 가구원 유무별 다문화가구 분포",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_MOGE_1001300801",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "전국 장애인 추정수",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11732S0101",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 출현율의 변화추이",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11732S0102",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 추정수 및 장애등록율 변화추이",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11732S0103",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주된 장애유형별·성별 재가장애인 출현율",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11732S0104",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주요 장애인보조기구 필요 및 소지 현황",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11732S0113",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "현재 장애로 인한 추가 소요비용",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11732S0124",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "성별 취업 인구 및 취업률",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11732S0126",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령별 취업 인구 및 취업률",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "DT_11732S0125",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인편의시설 설치현황(시설별)(2013)",
+              "list_names": "장애인;장애인 현황",
+              "list_ids": "A08;A08_A08_1",
+              "id": "TX_117352794_2",
+              "org_id": "117"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "장애인 복지",
+          "acc_name": "장애인;장애인 복지",
+          "acc_id": "A08;A0802",
+          "id": "A0802",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 접촉 여부 및 대상 (주된응답, 13세 이상 인구)",
+              "list_names": "장애인;장애인 복지",
+              "list_ids": "A08;A0802",
+              "id": "DT_1SSWE061R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 접촉 여부 및 대상 (복수응답, 13세 이상 인구)",
+              "list_names": "장애인;장애인 복지",
+              "list_ids": "A08;A0802",
+              "id": "DT_1SSWE062R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사회의 장애인 차별 (13세 이상 인구)",
+              "list_names": "장애인;장애인 복지",
+              "list_ids": "A08;A0802",
+              "id": "DT_1SSWE080R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 관련 시설 설립에 대한 견해 (13세 이상 인구)",
+              "list_names": "장애인;장애인 복지",
+              "list_ids": "A08;A0802",
+              "id": "DT_1SSWE110R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 복지사업의 충분정도 (13세 이상 인구)",
+              "list_names": "장애인;장애인 복지",
+              "list_ids": "A08;A0802",
+              "id": "DT_1SSWE121R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "우선적으로 확대 실시하여야 할 장애인 복지사업 (주된응답, 13세 이상 인구)",
+              "list_names": "장애인;장애인 복지",
+              "list_ids": "A08;A0802",
+              "id": "DT_1SSWE122R",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "우선적으로 확대 실시하여야 할 장애인 복지사업 (복수응답, 13세 이상 인구)",
+              "list_names": "장애인;장애인 복지",
+              "list_ids": "A08;A0802",
+              "id": "DT_1SSWE123R",
+              "org_id": "101"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "생활체육 현황",
+          "acc_name": "장애인;생활체육 현황",
+          "acc_id": "A08;A08_A08_3",
+          "id": "A08_A08_3",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "응답자특성별 운동 경험자의 운동 장소",
+              "list_names": "장애인;생활체육 현황",
+              "list_ids": "A08;A08_A08_3",
+              "id": "DT_113_STBL_1013994",
+              "org_id": "113"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "응답자특성별 운동 비경험자의 운동에 대한 의지",
+              "list_names": "장애인;생활체육 현황",
+              "list_ids": "A08;A08_A08_3",
+              "id": "DT_113_STBL_1014023",
+              "org_id": "113"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "응답자특성별 운동경험자의 운동 시간",
+              "list_names": "장애인;생활체육 현황",
+              "list_ids": "A08;A08_A08_3",
+              "id": "DT_113_STBL_1013856",
+              "org_id": "113"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "응답자특성별 운동 비경험자의 희망 운동 종목",
+              "list_names": "장애인;생활체육 현황",
+              "list_ids": "A08;A08_A08_3",
+              "id": "DT_113_STBL_1014057",
+              "org_id": "113"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "응답자특성별 운동의 효과",
+              "list_names": "장애인;생활체육 현황",
+              "list_ids": "A08;A08_A08_3",
+              "id": "DT_113_STBL_1014117",
+              "org_id": "113"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "응답자특성별 운동 비경험자의 이용하고 싶은 체육시설",
+              "list_names": "장애인;생활체육 현황",
+              "list_ids": "A08;A08_A08_3",
+              "id": "DT_113_STBL_1023772",
+              "org_id": "113"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "응답자특성별 운동 경험자의 운동 목적",
+              "list_names": "장애인;생활체육 현황",
+              "list_ids": "A08;A08_A08_3",
+              "id": "DT_113_STBL_1013838",
+              "org_id": "113"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "경제활동",
+          "acc_name": "장애인;경제활동",
+          "acc_id": "A08;A08_A08_4",
+          "id": "A08_A08_4",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 경제활동상태 - 성별",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N001",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 경제활동상태 - 연령별",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N002",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 경제활동상태 - 장애정도별",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N003",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 경제활동상태 - 장애유형별",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N004",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 취업자의 종사상 지위",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N007",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 취업자의 직장(일자리) 산업",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N008",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 취업자의 직업",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N009",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 임금근로자의 최근 3개월 평균 임금 - 종사상 지위별",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N014",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 임금근로자의 비정규직 규모",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N015",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 실업자의 구직기간",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N017",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 비경제활동인구의 지난 주 주된 활동상태",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38304_2013_N018",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "공공기관 장애인고용 현황",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_11830_N003",
+              "org_id": "118"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "민간기업 장애인고용 현황",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_11830_N004_001",
+              "org_id": "118"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "의무고용사업체 장애인고용 현황",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_11830_N001",
+              "org_id": "118"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "정부부문 장애인고용 현황",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_11830_N002_001",
+              "org_id": "118"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 고용현황 총괄",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38302_2016_N001",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 고용기업체 현황",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38302_2016_N004",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 근로자 고용현황",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38302_2016_N008",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애인 고용 증진을 위해 필요한 사항(1순위) - 전체 기업체",
+              "list_names": "장애인;경제활동",
+              "list_ids": "A08;A08_A08_4",
+              "id": "DT_38302_2016_N049",
+              "org_id": "383"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "장애인 구직·취업",
+          "acc_name": "장애인;장애인 구직·취업",
+          "acc_id": "A08;A08_A08_5",
+          "id": "A08_A08_5",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국고용직업분류별 구인수,구직자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1012",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국표준직업분류별 구인수,구직자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1013",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국고용직업분류별 구인배수, 전년도 동분기 증감",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1014",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국표준직업분류별 구인배수, 전년도 동분기 증감",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1015",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국고용직업분류별 취업자수,취업률 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1016",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국표준직업분류별 취업자수, 취업률 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1017",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "중증장애인 장애유형별 취업자수 및 취업률 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1011",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애유형별 구직자수, 전년도 동분기 증감",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1007",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애유형별 취업자수, 취업률 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1008",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애등급별 구직자수, 취업자수, 취업률 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1009",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "중증장애인 장애유형별 구직자수, 전년도 동분기 증감",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1010",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "임금별 구인수, 구직자수, 취업자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1006",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "학력별 구인수, 구직자수, 취업자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1005",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "산업별 구인수, 취업자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1018",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "연령별 구인수, 구직자수, 취업자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1004",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "장애정도별 구인수, 구직자수, 취업자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1003",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사업체규모별 구인수, 취업자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1019",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "성별 구인수, 구직자수, 취업자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1002",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "지역별 취업자수, 취업률 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1021",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "지역별 구인수, 구직자수 현황",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1020",
+              "org_id": "383"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "구인수, 구직자수, 취업자수",
+              "list_names": "장애인;장애인 구직·취업",
+              "list_ids": "A08;A08_A08_5",
+              "id": "DT_38301_2013_N1001",
+              "org_id": "383"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "외국인",
+      "acc_name": "외국인",
+      "acc_id": "A09",
+      "id": "A09",
+      "children": [
+        {
+          "category": "age",
+          "type": "list",
+          "name": "외국인주민현황",
+          "acc_name": "외국인;외국인주민현황",
+          "acc_id": "A09;A0901",
+          "id": "A0901",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별 외국인주민 현황",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A001_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 외국인주민 현황",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A000_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A002_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자-외국인 근로자(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A005_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자-결혼이민자(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A008_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자-유학생(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A011_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자-외국국적동포(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "DT_110025_A037_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자-기타 외국인(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A014_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "이전국적별 한국국적을 취득한 자(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A017_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별 유형별 외국인주민 자녀",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "DT_110025_A041_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시군구별 연령별 외국인주민 자녀(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "DT_110025_A042_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "부모의 국적별 외국인주민 자녀(계)",
+              "list_names": "외국인;외국인주민현황",
+              "list_ids": "A09;A0901",
+              "id": "TX_11025_A026_A",
+              "org_id": "110"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "외국인 체류 및 이동",
+          "acc_name": "외국인;외국인 체류 및 이동",
+          "acc_id": "A09;A0903",
+          "id": "A0903",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "국적/체류자격별 외국인 입국자(월간, 연간)",
+              "list_names": "외국인;외국인 체류 및 이동",
+              "list_ids": "A09;A0903",
+              "id": "DT_1B28023",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "성/국적별 외국인 국제이동(월간, 연간)",
+              "list_names": "외국인;외국인 체류 및 이동",
+              "list_ids": "A09;A0903",
+              "id": "DT_1B28022",
+              "org_id": "101"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "지역 및 체류자격별 등록외국인 현황",
+              "list_names": "외국인;외국인 체류 및 이동",
+              "list_ids": "A09;A0903",
+              "id": "DT_1B040A11",
+              "org_id": "111"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "국적·지역 및 체류자격별 체류외국인 현황",
+              "list_names": "외국인;외국인 체류 및 이동",
+              "list_ids": "A09;A0903",
+              "id": "DT_1B040A5A",
+              "org_id": "111"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "국적·지역 및 체류자격별 등록외국인 현황",
+              "list_names": "외국인;외국인 체류 및 이동",
+              "list_ids": "A09;A0903",
+              "id": "DT_1B040A7",
+              "org_id": "111"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "국적·지역 및 체류자격별 단기체류외국인 현황",
+              "list_names": "외국인;외국인 체류 및 이동",
+              "list_ids": "A09;A0903",
+              "id": "DT_1B040A12",
+              "org_id": "111"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "국적·지역 및 체류자격별 외국인 입국자",
+              "list_names": "외국인;외국인 체류 및 이동",
+              "list_ids": "A09;A0903",
+              "id": "DT_091_111_2009_S006",
+              "org_id": "111"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "외국인 토지현황",
+          "acc_name": "외국인;외국인 토지현황",
+          "acc_id": "A09;101_A0904",
+          "id": "101_A0904",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "전국 외국인 토지보유현황",
+              "list_names": "외국인;외국인 토지현황",
+              "list_ids": "A09;101_A0904",
+              "id": "DT_MLTM_6044",
+              "org_id": "116"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "시도별 외국인 토지보유현황",
+              "list_names": "외국인;외국인 토지현황",
+              "list_ids": "A09;101_A0904",
+              "id": "DT_MLTM_6045",
+              "org_id": "116"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "외국인근로자",
+          "acc_name": "외국인;외국인근로자",
+          "acc_id": "A09;A09_A09_4",
+          "id": "A09_A09_4",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자-외국인 근로자(계)",
+              "list_names": "외국인;외국인근로자",
+              "list_ids": "A09;A09_A09_4",
+              "id": "TX_11025_A005_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자-외국인 근로자(남)",
+              "list_names": "외국인;외국인근로자",
+              "list_ids": "A09;A09_A09_4",
+              "id": "TX_11025_A006_A",
+              "org_id": "110"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "한국국적을 가지지 않은 자-외국인 근로자(여)",
+              "list_names": "외국인;외국인근로자",
+              "list_ids": "A09;A09_A09_4",
+              "id": "TX_11025_A007_A",
+              "org_id": "110"
+            }
+          ]
+        },
+        {
+          "category": "age",
+          "type": "list",
+          "name": "외국인범죄자",
+          "acc_name": "외국인;외국인범죄자",
+          "acc_id": "A09;A09_A09_5",
+          "id": "A09_A09_5",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 송치의견",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6711",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 범행동기",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6709",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 공범관계",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6706",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 전회처분 종류",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6704",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 범행시 정신상태",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6708",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 구속·불구속 상황",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6710",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 재범종류 및 기간",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6705",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 마약류 등 상용여부",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6707",
+              "org_id": "132"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국인범죄자 범행시 전과여부 및 횟수",
+              "list_names": "외국인;외국인범죄자",
+              "list_ids": "A09;A09_A09_5",
+              "id": "DT_13204_6703",
+              "org_id": "132"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "age",
+      "type": "list",
+      "name": "다문화",
+      "acc_name": "다문화",
+      "acc_id": "101_A10",
+      "id": "101_A10",
+      "children": [
+        {
+          "category": "age",
+          "type": "table",
+          "name": "거주지역별 다문화가구 분포",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300798",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가구의 가구원 수별 분포",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300799",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가구의 가구구성",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300800",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족의 자녀 수",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300802",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가구 자녀의 연령별 분포",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300803",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가구 자녀의 학교급별 취학률",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300806",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가구의 월평균 가구소득",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300809",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "결혼이민자/귀화자 등의 이혼/별거 이유",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300822",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "결혼이민자/귀화자 등의 한국 생활 어려움(복수응답)",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300858",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "결혼이민자/귀화자 등의 관련 기관/단체 이용률",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300902",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 성별/연령별 분포",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300949",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 재학 상태",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300954",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 외국계 부모의 성별",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300958",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화 가족 자녀의 거주지역 및 가구소득",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300962",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀가 한국에서 학교를 다니다 그만둔 이유",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300979",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 학교 적응 정도",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300980",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀가 학교에 잘 적응하지 못하는 이유(복수응답)",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300981",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 학교 공부 어려움",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300982",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 학교폭력 피해 경험 여부",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300983",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 학교폭력 피해 유형(복수응답)",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300984",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 자아존중감",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300994",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "만 13세 이상 다문화가족 자녀의 고민(복수응답)",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300995",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀라는 이유로 차별이나 무시당한 비율(2012, 2015)",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001300998",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 지원 시설 인지율",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001301006",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 지원 시설 이용률",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001301007",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 교육 및 지원 서비스 수혜율(복수응답)",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001301008",
+          "org_id": "154"
+        },
+        {
+          "category": "age",
+          "type": "table",
+          "name": "다문화가족 자녀의 직종",
+          "list_names": "다문화",
+          "list_ids": "101_A10",
+          "id": "DT_MOGE_1001301020",
+          "org_id": "154"
+        }
+      ]
+    }
+  ],
+  "age-timestamp": "2019-09-06T17:17:28.428279"
+}
