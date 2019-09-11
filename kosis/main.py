@@ -289,7 +289,7 @@ def get_table_metainfo(table_id, org_id=None):
     """
     if org_id is None:
         table = search_tables_by_id(table_id)
-        org_id = table["org_id"]
+        org_id = table[0]["org_id"]
 
     url = "http://kosis.kr/openapi/statisticsData.do"
     params = {
@@ -342,7 +342,7 @@ def get_table_metainfo(table_id, org_id=None):
 def get_table_url(table_id, org_id=None, category="topic", open_browser=False):
     if org_id is None:
         table = search_tables_by_id(table_id, category=category)
-        org_id = table["org_id"]
+        org_id = table[0]["org_id"]
 
     url = "http://kosis.kr/statHtml/statHtml.do?orgId={0}&tblId={1}".format(org_id, table_id)
     if open_browser:
