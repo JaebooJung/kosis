@@ -6,6 +6,7 @@ import os.path
 import webbrowser
 from string import Template
 
+import pandas as pd
 import requests
 import xmltodict
 
@@ -21,7 +22,10 @@ __all__ = [
     "search_tables_by_id",
     "get_table_metainfo",
     "get_table_url",
+    "get_table_cross",
 ]
+
+pd.set_option('display.unicode.east_asian_width', True)
 
 dict_wv_code = {
     "MT_ZTITLE": "국내통계 주제별",
@@ -344,3 +348,60 @@ def get_table_url(table_id, org_id=None, category="topic", open_browser=False):
     if open_browser:
         webbrowser.open(url)
     return url
+
+
+def get_table_cross(table_id, period, time, org_id=None):
+    if org_id is None:
+        table = search_tables_by_id(table_id)
+        org_id = table[0]["org_id"]
+
+    meta_info = get_table_metainfo(table_id=table_id, org_id=org_id)
+    item_code = meta_info["item"][("ITEM", "항목")][0][0]
+    item_num = len(meta_info["item"]) - 1
+
+    url = "http://kosis.kr/openapi/Param/statisticsParameterData.do"
+    params = {
+        "format": "json",
+        "jsonVD": "Y",
+        "method": "getList",
+        "apiKey": get_apikey(),
+        "loadGubun": "2",
+        "orgId": org_id,
+        "tblId": table_id,
+        "prdSe": period,
+        "startPrdDe": time,
+        "itmId": "ALL"
+    }
+
+    for i in range(item_num):
+        params.update({"objL{}".format(i + 1): "ALL"})
+
+    res = requests.get(url, params=params)
+    data = json.loads(res.content.decode("utf-8"))
+
+    if len(data) == 0:
+        raise Exception("no data")
+
+    # 컬럼 라벨
+    keys = data[0].keys()
+    columns = ["DT"]
+    for k in keys:
+        if k.startswith("C") and k.endswith("_NM") and k.find("OBJ") < 0:
+            columns.append(k)
+
+    df = pd.DataFrame(data, columns=columns)
+
+    # 테이블 이름
+    df.name = data[0]["TBL_NM"]
+    # 인덱스 처리
+    columns.remove("DT")
+    df = df.set_index(columns)
+    # 컬럼 라벨 변경
+    df.columns = [data[0]["PRD_DE"]]
+    # 인덱스 이름 변경
+    index_name = []
+    for i in range(item_num):
+        index_name.append(data[0]["C{}_OBJ_NM".format(i + 1)])
+    df.index.names = index_name
+
+    return df
