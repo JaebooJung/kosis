@@ -145,7 +145,7 @@ def fetch_tree(category=None, max_level=1e9):
 def get_tree(category="topic"):
     """트리 객체 반환"""
     json_path = os.path.join(os.path.dirname(__file__), category + ".json")
-    with open(json_path, "r") as json_file:
+    with open(json_path, "r", encoding="utf-8") as json_file:
         json_data = json.load(json_file)
     return json_data
 
