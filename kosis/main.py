@@ -133,8 +133,7 @@ def fetch_tree(category=None, max_level=1e9):
     if not os.path.exists(json_path):
         with open(json_path, "w") as json_file:
             json_file.write("{}")
-    with open(json_path, "r") as json_file:
-        json_data = json.load(json_file)
+    json_data = {}
     nodes = fetch_subnodes(category=category, max_level=max_level, list_map={})
     json_data[category] = nodes
     json_data[category + "-timestamp"] = dt.datetime.now().isoformat()
@@ -356,7 +355,6 @@ def get_table_cross(table_id, period, time, org_id=None):
         org_id = table[0]["org_id"]
 
     meta_info = get_table_metainfo(table_id=table_id, org_id=org_id)
-    item_code = meta_info["item"][("ITEM", "항목")][0][0]
     item_num = len(meta_info["item"]) - 1
 
     url = "http://kosis.kr/openapi/Param/statisticsParameterData.do"
@@ -382,26 +380,6 @@ def get_table_cross(table_id, period, time, org_id=None):
     if len(data) == 0:
         raise Exception("no data")
 
-    # 컬럼 라벨
-    keys = data[0].keys()
-    columns = ["DT"]
-    for k in keys:
-        if k.startswith("C") and k.endswith("_NM") and k.find("OBJ") < 0:
-            columns.append(k)
-
-    df = pd.DataFrame(data, columns=columns)
-
-    # 테이블 이름
-    df.name = data[0]["TBL_NM"]
-    # 인덱스 처리
-    columns.remove("DT")
-    df = df.set_index(columns)
-    # 컬럼 라벨 변경
-    df.columns = [data[0]["PRD_DE"]]
-    # 인덱스 이름 변경
-    index_name = []
-    for i in range(item_num):
-        index_name.append(data[0]["C{}_OBJ_NM".format(i + 1)])
-    df.index.names = index_name
+    df = pd.DataFrame(data)
 
     return df
