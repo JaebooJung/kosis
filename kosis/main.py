@@ -131,13 +131,13 @@ def fetch_subnodes(category="topic", parent_list_id=None, parent_name=None, max_
 def fetch_tree(category=None, max_level=1e9):
     json_path = os.path.join(os.path.dirname(__file__), category + ".json")
     if not os.path.exists(json_path):
-        with open(json_path, "w") as json_file:
+        with open(json_path, "w", encoding='utf-8') as json_file:
             json_file.write("{}")
     json_data = {}
     nodes = fetch_subnodes(category=category, max_level=max_level, list_map={})
     json_data[category] = nodes
     json_data[category + "-timestamp"] = dt.datetime.now().isoformat()
-    with open(json_path, "w") as json_file:
+    with open(json_path, "w", encoding='utf-8') as json_file:
         json.dump(json_data, json_file, ensure_ascii=False, indent=2)
 
 

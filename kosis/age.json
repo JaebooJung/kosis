@@ -128,37 +128,46 @@
             {
               "category": "age",
               "type": "table",
-              "name": "양육수당 및 보육시설(이용여부)",
-              "list_names": "영유아;영유아 보육",
-              "list_ids": "A01;A01_A01",
-              "id": "TX_117_2013_H254",
-              "org_id": "117"
-            },
-            {
-              "category": "age",
-              "type": "table",
-              "name": "보육시설 이용비용",
-              "list_names": "영유아;영유아 보육",
-              "list_ids": "A01;A01_A01",
-              "id": "TX_117_2013_H255",
-              "org_id": "117"
-            },
-            {
-              "category": "age",
-              "type": "table",
-              "name": "생활비에서 차지하는 보육비·사교육비 비중",
-              "list_names": "영유아;영유아 보육",
-              "list_ids": "A01;A01_A01",
-              "id": "TX_117_2013_H279",
-              "org_id": "117"
-            },
-            {
-              "category": "age",
-              "type": "table",
               "name": "연령 및 영유아별 어린이집 선택 이유",
               "list_names": "영유아;영유아 보육",
               "list_ids": "A01;A01_A01",
               "id": "DT_33107N_009",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "사교육 경험",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_117074_2018_A040",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "보육 및 사교육 이용여부(0-5세)",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_117074_2018_A041",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "보육 및 사교육 항목별 비용(0-5세)",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_117074_2018_A042",
+              "org_id": "117"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "보육 및 사교육 전체 비용(0-5세)",
+              "list_names": "영유아;영유아 보육",
+              "list_ids": "A01;A01_A01",
+              "id": "DT_117074_2018_A043",
               "org_id": "117"
             }
           ]
@@ -1111,28 +1120,28 @@
                 {
                   "category": "age",
                   "type": "table",
-                  "name": "다문화가족 자녀의 학교폭력 피해 경험 여부",
+                  "name": "초·중·고등학교 재학생 자녀의 지난 1년 학교폭력을 당한 경험",
                   "list_names": "학생;중고등학생;청소년과 학교폭력",
                   "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
-                  "id": "DT_MOGE_1001300983",
+                  "id": "DT_MOGE_1001301413",
                   "org_id": "154"
                 },
                 {
                   "category": "age",
                   "type": "table",
-                  "name": "다문화가족 자녀의 학교폭력 피해 유형(복수응답)",
+                  "name": "초·중·고등학교 재학생 자녀가 경험한 폭력의 종류",
                   "list_names": "학생;중고등학생;청소년과 학교폭력",
                   "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
-                  "id": "DT_MOGE_1001300984",
+                  "id": "DT_MOGE_1001301414",
                   "org_id": "154"
                 },
                 {
                   "category": "age",
                   "type": "table",
-                  "name": "다문화가족 자녀의 학교폭력 대응 방법(복수응답)",
+                  "name": "초·중·고등학교 재학생 자녀의 학교폭력 대응 방법",
                   "list_names": "학생;중고등학생;청소년과 학교폭력",
                   "list_ids": "A04;A04_A2;A04_A2_A04_3_3",
-                  "id": "DT_MOGE_1001300985",
+                  "id": "DT_MOGE_1001301415",
                   "org_id": "154"
                 },
                 {
@@ -1229,7 +1238,7 @@
                 {
                   "category": "age",
                   "type": "table",
-                  "name": "주3일 이상 격렬한 신체활동 실천율",
+                  "name": "주3일 이상 고강도 신체활동 실천율",
                   "list_names": "학생;중고등학생;신체활동",
                   "list_ids": "A04;A04_A2;A04_A2_A5",
                   "id": "DT_117_12_Y035",
@@ -1325,7 +1334,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "혼인연차별 혼인연령별 신혼부부수",
+          "name": "혼인연차별 혼인연령별 신혼부부 수",
           "list_names": "신혼부부",
           "list_ids": "A14",
           "id": "DT_1NW1004",
@@ -1343,7 +1352,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "시도별 직업별 신혼부부수",
+          "name": "시도별 직업별 신혼부부 수",
           "list_names": "신혼부부",
           "list_ids": "A14",
           "id": "DT_1NW1007",
@@ -1352,7 +1361,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "시도별 다문화혼인별 신혼부부수",
+          "name": "시도별 다문화혼인별 신혼부부 수",
           "list_names": "신혼부부",
           "list_ids": "A14",
           "id": "DT_1NW1010",
@@ -1361,7 +1370,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "신혼부부 특성별 평균 출생아수",
+          "name": "신혼부부 특성별 평균 출생아 수",
           "list_names": "신혼부부",
           "list_ids": "A14",
           "id": "DT_1NW1020",
@@ -1370,7 +1379,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "신혼부부 특성별 맞벌이여부별 신혼부부수",
+          "name": "신혼부부 특성별 맞벌이여부별 신혼부부 수",
           "list_names": "신혼부부",
           "list_ids": "A14",
           "id": "DT_1NW1026",
@@ -1842,28 +1851,10 @@
             {
               "category": "age",
               "type": "table",
-              "name": "사례개입 중사망한 학대피해노인의 성별 연령 분포",
-              "list_names": "노인;노인학대",
-              "list_ids": "A05;A05_A05_7",
-              "id": "TX_117_2009_H5036",
-              "org_id": "117"
-            },
-            {
-              "category": "age",
-              "type": "table",
               "name": "사례판정별 노인학대 유형",
               "list_names": "노인;노인학대",
               "list_ids": "A05;A05_A05_7",
               "id": "TX_117_2009_H5032",
-              "org_id": "117"
-            },
-            {
-              "category": "age",
-              "type": "table",
-              "name": "종결사유",
-              "list_names": "노인;노인학대",
-              "list_ids": "A05;A05_A05_7",
-              "id": "TX_117_2009_H5034",
               "org_id": "117"
             },
             {
@@ -2163,7 +2154,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "기관유형별 정규직 과학기술연구개발인력 시·도별 현황",
+              "name": "기관유형별 정규직 과학기술연구개발인력 시·도별 현황 ",
               "list_names": "여성;여성과학기술인력활용",
               "list_ids": "A06;A06_07",
               "id": "DT_B01104_FRM105900",
@@ -2299,7 +2290,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "경력단절 이후 첫 일자리의 산업",
+              "name": "경력단절 이후 첫 일자리 산업",
               "list_names": "여성;경력단절여성",
               "list_ids": "A06;A06_08",
               "id": "DT_MOGE_3036200088",
@@ -2371,7 +2362,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "창업 업종",
+              "name": "창업 희망 업종",
               "list_names": "여성;경력단절여성",
               "list_ids": "A06;A06_08",
               "id": "DT_MOGE_3036200201",
@@ -2380,7 +2371,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "창업 이유",
+              "name": "창업이나 프리랜서 희망 이유",
               "list_names": "여성;경력단절여성",
               "list_ids": "A06;A06_08",
               "id": "DT_MOGE_3036200202",
@@ -2708,7 +2699,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "뇌졸중 의사진단경험률 추이 : 성별, 만30세이상",
+          "name": "뇌졸중 의사진단경험률 추이",
           "list_names": "남성",
           "list_ids": "101_A11",
           "id": "DT_11702_N111",
@@ -2717,7 +2708,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "고콜레스테롤혈증 유병률 추이 : 성별, 만30세이상",
+          "name": "고콜레스테롤혈증 유병률 추이",
           "list_names": "남성",
           "list_ids": "101_A11",
           "id": "DT_11702_N103",
@@ -2726,7 +2717,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "당뇨병 유병률 추이 : 성별, 만30세이상",
+          "name": "당뇨병 유병률 추이",
           "list_names": "남성",
           "list_ids": "101_A11",
           "id": "DT_11702_N102",
@@ -2735,7 +2726,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "고혈압 유병률 추이 : 성별, 만30세이상",
+          "name": "고혈압 유병률 추이",
           "list_names": "남성",
           "list_ids": "101_A11",
           "id": "DT_11702_N105",
@@ -2744,7 +2735,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "비만 유병률 추이 : 성별, 만19세이상",
+          "name": "비만 유병률 추이",
           "list_names": "남성",
           "list_ids": "101_A11",
           "id": "DT_11702_N101",
@@ -2753,7 +2744,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "현재흡연율 추이 : 성별, 만19세이상",
+          "name": "현재흡연율 추이",
           "list_names": "남성",
           "list_ids": "101_A11",
           "id": "DT_11702_N001",
@@ -2762,7 +2753,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "현재비흡연자의 가정실내 간접흡연노출률 추이 : 성별, 만19세이상",
+          "name": "현재비흡연자의 가정실내 간접흡연노출률 추이",
           "list_names": "남성",
           "list_ids": "101_A11",
           "id": "DT_11702_N010",
@@ -2771,7 +2762,7 @@
         {
           "category": "age",
           "type": "table",
-          "name": "시군구별 남자 현재흡연율",
+          "name": "시·군·구별 남자 현재흡연율",
           "list_names": "남성",
           "list_ids": "101_A11",
           "id": "DT_H_SM_MALE",
@@ -3006,7 +2997,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "시군구별 우울감 경험률",
+              "name": "시·군·구별 우울감 경험률",
               "list_names": "환자;우울증",
               "list_ids": "A07;A07_A07_3",
               "id": "DT_H_MENTAL_DEPRESS",
@@ -3024,10 +3015,10 @@
             {
               "category": "age",
               "type": "table",
-              "name": "최근 1년간 우울감 경험 여부",
+              "name": "우울감 경험 현황",
               "list_names": "환자;우울증",
               "list_ids": "A07;A07_A07_3",
-              "id": "DT_MOGE_3021300329",
+              "id": "DT_MOGE_3021300560",
               "org_id": "154"
             },
             {
@@ -3133,25 +3124,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "자녀양육의 어려움 - 자녀양육 스트레스(미취학 자녀)",
-              "list_names": "환자;스트레스",
-              "list_ids": "A07;A07_A07_4",
-              "id": "DT_MOGE_3021300229",
-              "org_id": "154"
-            },
-            {
-              "category": "age",
-              "type": "table",
-              "name": "자녀양육의 어려움 - 양육 스트레스(중학생 이상)",
-              "list_names": "환자;스트레스",
-              "list_ids": "A07;A07_A07_4",
-              "id": "DT_MOGE_3021300240",
-              "org_id": "154"
-            },
-            {
-              "category": "age",
-              "type": "table",
-              "name": "시군구별 스트레스 인지율",
+              "name": "시·군·구별 스트레스 인지율",
               "list_names": "환자;스트레스",
               "list_ids": "A07;A07_A07_4",
               "id": "DT_H_MENTAL_STRESS",
@@ -3169,7 +3142,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "스트레스인지율 추이 : 성별, 만19세이상",
+              "name": "스트레스인지율 추이",
               "list_names": "환자;스트레스",
               "list_ids": "A07;A07_A07_4",
               "id": "DT_11702_N061",
@@ -3188,7 +3161,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "결핵 신고 신환자 현황 - 결핵 유형별",
+              "name": "결핵 종류별 신고 결핵 신환자수",
               "list_names": "환자;결핵환자",
               "list_ids": "A07;A07_A07_5",
               "id": "DT_117N_A00101",
@@ -3197,7 +3170,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "결핵 신고 신환자 현황 - 지역별",
+              "name": "지역별 신고 결핵 신환자수",
               "list_names": "환자;결핵환자",
               "list_ids": "A07;A07_A07_5",
               "id": "DT_117N_A00104",
@@ -3206,7 +3179,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "결핵 신고 신환자 현황 - 신고기관별",
+              "name": "신고기관별 신고 결핵 신환자수",
               "list_names": "환자;결핵환자",
               "list_ids": "A07;A07_A07_5",
               "id": "DT_117N_A00103",
@@ -3215,7 +3188,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "결핵 신고 신환자 현황 - 성별 · 연령별",
+              "name": "성별·연령별 신고 결핵 신환자수",
               "list_names": "환자;결핵환자",
               "list_ids": "A07;A07_A07_5",
               "id": "DT_117N_A00102",
@@ -3298,10 +3271,10 @@
             {
               "category": "age",
               "type": "table",
-              "name": "장애인 가구원 유무별 다문화가구 분포",
+              "name": "장애인 가구원 유무",
               "list_names": "장애인;장애인 현황",
               "list_ids": "A08;A08_A08_1",
-              "id": "DT_MOGE_1001300801",
+              "id": "DT_MOGE_1001301205",
               "org_id": "154"
             },
             {
@@ -3398,7 +3371,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "장애인 접촉 여부 및 대상 (주된응답, 13세 이상 인구)",
+              "name": "장애인과의 유대관계 여부 및 대상(주된응답, 13세 이상 인구)",
               "list_names": "장애인;장애인 복지",
               "list_ids": "A08;A0802",
               "id": "DT_1SSWE061R",
@@ -3407,7 +3380,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "장애인 접촉 여부 및 대상 (복수응답, 13세 이상 인구)",
+              "name": "장애인과의 유대관계 여부 및 대상(복수응답, 13세 이상 인구)",
               "list_names": "장애인;장애인 복지",
               "list_ids": "A08;A0802",
               "id": "DT_1SSWE062R",
@@ -3480,7 +3453,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "응답자특성별 운동 비경험자의 운동에 대한 의지",
+              "name": "운동 비경험자 운동에 대한 의지",
               "list_names": "장애인;생활체육 현황",
               "list_ids": "A08;A08_A08_3",
               "id": "DT_113_STBL_1014023",
@@ -3489,7 +3462,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "응답자특성별 운동경험자의 운동 시간",
+              "name": "운동 경험자 1회 평균 운동 시간",
               "list_names": "장애인;생활체육 현황",
               "list_ids": "A08;A08_A08_3",
               "id": "DT_113_STBL_1013856",
@@ -3525,7 +3498,7 @@
             {
               "category": "age",
               "type": "table",
-              "name": "응답자특성별 운동 경험자의 운동 목적",
+              "name": "운동 경험자 운동 목적",
               "list_names": "장애인;생활체육 현황",
               "list_ids": "A08;A08_A08_3",
               "id": "DT_113_STBL_1013838",
@@ -3725,15 +3698,6 @@
             {
               "category": "age",
               "type": "table",
-              "name": "한국고용직업분류별 구인수,구직자수 현황",
-              "list_names": "장애인;장애인 구직·취업",
-              "list_ids": "A08;A08_A08_5",
-              "id": "DT_38301_2013_N1012",
-              "org_id": "383"
-            },
-            {
-              "category": "age",
-              "type": "table",
               "name": "한국표준직업분류별 구인수,구직자수 현황",
               "list_names": "장애인;장애인 구직·취업",
               "list_ids": "A08;A08_A08_5",
@@ -3743,28 +3707,10 @@
             {
               "category": "age",
               "type": "table",
-              "name": "한국고용직업분류별 구인배수, 전년도 동분기 증감",
-              "list_names": "장애인;장애인 구직·취업",
-              "list_ids": "A08;A08_A08_5",
-              "id": "DT_38301_2013_N1014",
-              "org_id": "383"
-            },
-            {
-              "category": "age",
-              "type": "table",
               "name": "한국표준직업분류별 구인배수, 전년도 동분기 증감",
               "list_names": "장애인;장애인 구직·취업",
               "list_ids": "A08;A08_A08_5",
               "id": "DT_38301_2013_N1015",
-              "org_id": "383"
-            },
-            {
-              "category": "age",
-              "type": "table",
-              "name": "한국고용직업분류별 취업자수,취업률 현황",
-              "list_names": "장애인;장애인 구직·취업",
-              "list_ids": "A08;A08_A08_5",
-              "id": "DT_38301_2013_N1016",
               "org_id": "383"
             },
             {
@@ -3801,15 +3747,6 @@
               "list_names": "장애인;장애인 구직·취업",
               "list_ids": "A08;A08_A08_5",
               "id": "DT_38301_2013_N1008",
-              "org_id": "383"
-            },
-            {
-              "category": "age",
-              "type": "table",
-              "name": "장애등급별 구직자수, 취업자수, 취업률 현황",
-              "list_names": "장애인;장애인 구직·취업",
-              "list_ids": "A08;A08_A08_5",
-              "id": "DT_38301_2013_N1009",
               "org_id": "383"
             },
             {
@@ -4282,249 +4219,343 @@
       "children": [
         {
           "category": "age",
-          "type": "table",
-          "name": "거주지역별 다문화가구 분포",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300798",
-          "org_id": "154"
+          "type": "list",
+          "name": "가구구성표",
+          "acc_name": "다문화;가구구성표",
+          "acc_id": "101_A10;101_A10_001",
+          "id": "101_A10_001",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "결혼이민자·귀화자와의 관계",
+              "list_names": "다문화;가구구성표",
+              "list_ids": "101_A10;101_A10_001",
+              "id": "DT_MOGE_1001301201",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "다문화가구 자녀의 연령",
+              "list_names": "다문화;가구구성표",
+              "list_ids": "101_A10;101_A10_001",
+              "id": "DT_MOGE_1001301206",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀의 외국생활 경험 등",
+              "list_names": "다문화;가구구성표",
+              "list_ids": "101_A10;101_A10_001",
+              "id": "DT_MOGE_1001301207",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀돌봄",
+              "list_names": "다문화;가구구성표",
+              "list_ids": "101_A10;101_A10_001",
+              "id": "DT_MOGE_1001301210",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주택의 종류",
+              "list_names": "다문화;가구구성표",
+              "list_ids": "101_A10;101_A10_001",
+              "id": "DT_MOGE_1001301213",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "주택 점유 형태",
+              "list_names": "다문화;가구구성표",
+              "list_ids": "101_A10;101_A10_001",
+              "id": "DT_MOGE_1001301214",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가구 전체 월평균 소득",
+              "list_names": "다문화;가구구성표",
+              "list_ids": "101_A10;101_A10_001",
+              "id": "DT_MOGE_1001301215",
+              "org_id": "154"
+            }
+          ]
         },
         {
           "category": "age",
-          "type": "table",
-          "name": "다문화가구의 가구원 수별 분포",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300799",
-          "org_id": "154"
+          "type": "list",
+          "name": "결혼 이민자 귀화자 본인",
+          "acc_name": "다문화;결혼 이민자 귀화자 본인",
+          "acc_id": "101_A10;101_A10_002",
+          "id": "101_A10_002",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "혼인상태",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301218",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "부부간 하루 평균 대화 시간",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301222",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가족관계 만족도",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301223",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "의사 결정",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301226",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가사 활동 분담",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301229",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "부부간 문화적 차이 느낀 정도",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301232",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "문화적 차이 유형",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301233",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "배우자 만남 경로",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301241",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀와의 관계 만족도",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301245",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "만 5세 이하 자녀의 부모로서 가장 어려운 점",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301246",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "만6~24세 자녀 양육의 어려움",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301249",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "결혼이민자 귀화자 등의 한국어 실력",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301254",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "지난 1년동안 한국생활의 어려움",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301259",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "외국출신이라는 이유로 차별받은 경험",
+              "list_names": "다문화;결혼 이민자 귀화자 본인",
+              "list_ids": "101_A10;101_A10_002",
+              "id": "DT_MOGE_1001301274",
+              "org_id": "154"
+            }
+          ]
         },
         {
           "category": "age",
-          "type": "table",
-          "name": "다문화가구의 가구구성",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300800",
-          "org_id": "154"
+          "type": "list",
+          "name": "배우자",
+          "acc_name": "다문화;배우자",
+          "acc_id": "101_A10;101_A10_003",
+          "id": "101_A10_003",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가족관계 만족도",
+              "list_names": "다문화;배우자",
+              "list_ids": "101_A10;101_A10_003",
+              "id": "DT_MOGE_1001301337",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "배우자의 한국생활 지원",
+              "list_names": "다문화;배우자",
+              "list_ids": "101_A10;101_A10_003",
+              "id": "DT_MOGE_1001301340",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "의사 결정",
+              "list_names": "다문화;배우자",
+              "list_ids": "101_A10;101_A10_003",
+              "id": "DT_MOGE_1001301343",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "가사 활동 분담",
+              "list_names": "다문화;배우자",
+              "list_ids": "101_A10;101_A10_003",
+              "id": "DT_MOGE_1001301346",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "지난 1년 부부간 문화적 차이 느낀 정도",
+              "list_names": "다문화;배우자",
+              "list_ids": "101_A10;101_A10_003",
+              "id": "DT_MOGE_1001301349",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "지난 1년 배우자와 다툰 경험",
+              "list_names": "다문화;배우자",
+              "list_ids": "101_A10;101_A10_003",
+              "id": "DT_MOGE_1001301351",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "배우자와의 관계에서 문제가 생길때 대응 방법",
+              "list_names": "다문화;배우자",
+              "list_ids": "101_A10;101_A10_003",
+              "id": "DT_MOGE_1001301353",
+              "org_id": "154"
+            }
+          ]
         },
         {
           "category": "age",
-          "type": "table",
-          "name": "다문화가족의 자녀 수",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300802",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가구 자녀의 연령별 분포",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300803",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가구 자녀의 학교급별 취학률",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300806",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가구의 월평균 가구소득",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300809",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "결혼이민자/귀화자 등의 이혼/별거 이유",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300822",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "결혼이민자/귀화자 등의 한국 생활 어려움(복수응답)",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300858",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "결혼이민자/귀화자 등의 관련 기관/단체 이용률",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300902",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 성별/연령별 분포",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300949",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 재학 상태",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300954",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 외국계 부모의 성별",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300958",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화 가족 자녀의 거주지역 및 가구소득",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300962",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀가 한국에서 학교를 다니다 그만둔 이유",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300979",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 학교 적응 정도",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300980",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀가 학교에 잘 적응하지 못하는 이유(복수응답)",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300981",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 학교 공부 어려움",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300982",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 학교폭력 피해 경험 여부",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300983",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 학교폭력 피해 유형(복수응답)",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300984",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 자아존중감",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300994",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "만 13세 이상 다문화가족 자녀의 고민(복수응답)",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300995",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀라는 이유로 차별이나 무시당한 비율(2012, 2015)",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001300998",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 지원 시설 인지율",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001301006",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 지원 시설 이용률",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001301007",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 교육 및 지원 서비스 수혜율(복수응답)",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001301008",
-          "org_id": "154"
-        },
-        {
-          "category": "age",
-          "type": "table",
-          "name": "다문화가족 자녀의 직종",
-          "list_names": "다문화",
-          "list_ids": "101_A10",
-          "id": "DT_MOGE_1001301020",
-          "org_id": "154"
+          "type": "list",
+          "name": "자녀",
+          "acc_name": "다문화;자녀",
+          "acc_id": "101_A10;101_A10_004",
+          "id": "101_A10_004",
+          "children": [
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀의 아버지,어머니와의 관계 만족도",
+              "list_names": "다문화;자녀",
+              "list_ids": "101_A10;101_A10_004",
+              "id": "DT_MOGE_1001301398",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀의 다문화가족 정체성",
+              "list_names": "다문화;자녀",
+              "list_ids": "101_A10;101_A10_004",
+              "id": "DT_MOGE_1001301406",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "재학생 자녀의 학교 적응 정도",
+              "list_names": "다문화;자녀",
+              "list_ids": "101_A10;101_A10_004",
+              "id": "DT_MOGE_1001301416",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "자녀의 자아 존중감",
+              "list_names": "다문화;자녀",
+              "list_ids": "101_A10;101_A10_004",
+              "id": "DT_MOGE_1001301421",
+              "org_id": "154"
+            },
+            {
+              "category": "age",
+              "type": "table",
+              "name": "청소년 자녀의 차별받았을 때 대응 방법",
+              "list_names": "다문화;자녀",
+              "list_ids": "101_A10;101_A10_004",
+              "id": "DT_MOGE_1001301430",
+              "org_id": "154"
+            }
+          ]
         }
       ]
     }
   ],
-  "age-timestamp": "2019-09-06T17:17:28.428279"
+  "age-timestamp": "2020-06-18T11:00:13.077636"
 }

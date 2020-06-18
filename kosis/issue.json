@@ -187,8 +187,8 @@
             {
               "category": "issue",
               "type": "list",
-              "name": "창업",
-              "acc_name": "일자리;일자리 창출;창업",
+              "name": "신설법인",
+              "acc_name": "일자리;일자리 창출;신설법인",
               "acc_id": "B80_02;B80_02_02",
               "id": "B80_02_02",
               "children": [
@@ -196,7 +196,7 @@
                   "category": "issue",
                   "type": "table",
                   "name": "산업·연령대별 신설법인수",
-                  "list_names": "일자리;일자리 창출;창업",
+                  "list_names": "일자리;일자리 창출;신설법인",
                   "list_ids": "B80;B80_02;B80_02_02",
                   "id": "DT_142009N_102",
                   "org_id": "142"
@@ -294,7 +294,7 @@
                   "name": "연간지표",
                   "list_names": "일자리;경제지표;경제성장률",
                   "list_ids": "B80;B80_04;B80_04_01",
-                  "id": "DT_102Y002",
+                  "id": "DT_111Y002",
                   "org_id": "301"
                 },
                 {
@@ -303,7 +303,7 @@
                   "name": "분기지표",
                   "list_names": "일자리;경제지표;경제성장률",
                   "list_ids": "B80;B80_04;B80_04_01",
-                  "id": "DT_102Y055",
+                  "id": "DT_111Y055",
                   "org_id": "301"
                 }
               ]
@@ -357,8 +357,46 @@
             {
               "category": "issue",
               "type": "list",
-              "name": "설비투자",
-              "acc_name": "일자리;경제지표;설비투자",
+              "name": "제조업생산",
+              "acc_name": "일자리;경제지표;제조업생산",
+              "acc_id": "B80_04;B80_04_001",
+              "id": "B80_04_001",
+              "children": [
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "시도/산업별 광공업생산지수(2015=100)",
+                  "list_names": "일자리;경제지표;제조업생산",
+                  "list_ids": "B80;B80_04;B80_04_001",
+                  "id": "DT_1F01501",
+                  "org_id": "101"
+                }
+              ]
+            },
+            {
+              "category": "issue",
+              "type": "list",
+              "name": "서비스업생산",
+              "acc_name": "일자리;경제지표;서비스업생산",
+              "acc_id": "B80_04;B80_04_002",
+              "id": "B80_04_002",
+              "children": [
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "산업별 서비스업생산지수 (2015=100.0)",
+                  "list_names": "일자리;경제지표;서비스업생산",
+                  "list_ids": "B80;B80_04;B80_04_002",
+                  "id": "DT_1KS2015",
+                  "org_id": "101"
+                }
+              ]
+            },
+            {
+              "category": "issue",
+              "type": "list",
+              "name": "설비·건설투자",
+              "acc_name": "일자리;경제지표;설비·건설투자",
               "acc_id": "B80_04;B80_04_03",
               "id": "B80_04_03",
               "children": [
@@ -366,9 +404,18 @@
                   "category": "issue",
                   "type": "table",
                   "name": "설비투자지수",
-                  "list_names": "일자리;경제지표;설비투자",
+                  "list_names": "일자리;경제지표;설비·건설투자",
                   "list_ids": "B80;B80_04;B80_04_03",
                   "id": "DT_1F70011",
+                  "org_id": "101"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "공종별 건설기성액(불변)",
+                  "list_names": "일자리;경제지표;설비·건설투자",
+                  "list_ids": "B80;B80_04;B80_04_03",
+                  "id": "DT_1G18011",
                   "org_id": "101"
                 }
               ]
@@ -468,246 +515,340 @@
           "children": [
             {
               "category": "issue",
-              "type": "table",
-              "name": "거주지역별 다문화가구 분포",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300798",
-              "org_id": "154"
+              "type": "list",
+              "name": "가구구성표",
+              "acc_name": "가족관계;다문화가족;가구구성표",
+              "acc_id": "101_B01_101_B011;101_B01_101_B011_001",
+              "id": "101_B01_101_B011_001",
+              "children": [
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "결혼이민자·귀화자와의 관계",
+                  "list_names": "가족관계;다문화가족;가구구성표",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_001",
+                  "id": "DT_MOGE_1001301201",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "다문화가구 자녀의 연령",
+                  "list_names": "가족관계;다문화가족;가구구성표",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_001",
+                  "id": "DT_MOGE_1001301206",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "자녀의 외국생활 경험 등",
+                  "list_names": "가족관계;다문화가족;가구구성표",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_001",
+                  "id": "DT_MOGE_1001301207",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "자녀돌봄",
+                  "list_names": "가족관계;다문화가족;가구구성표",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_001",
+                  "id": "DT_MOGE_1001301210",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "주택의 종류",
+                  "list_names": "가족관계;다문화가족;가구구성표",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_001",
+                  "id": "DT_MOGE_1001301213",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "주택 점유 형태",
+                  "list_names": "가족관계;다문화가족;가구구성표",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_001",
+                  "id": "DT_MOGE_1001301214",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "가구 전체 월평균 소득",
+                  "list_names": "가족관계;다문화가족;가구구성표",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_001",
+                  "id": "DT_MOGE_1001301215",
+                  "org_id": "154"
+                }
+              ]
             },
             {
               "category": "issue",
-              "type": "table",
-              "name": "다문화가구의 가구원 수별 분포",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300799",
-              "org_id": "154"
+              "type": "list",
+              "name": "결혼 이민자 귀화자 본인",
+              "acc_name": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+              "acc_id": "101_B01_101_B011;101_B01_101_B011_002",
+              "id": "101_B01_101_B011_002",
+              "children": [
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "혼인상태",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301218",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "부부간 하루 평균 대화 시간",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301222",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "가족관계 만족도",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301223",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "의사 결정",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301226",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "가사 활동 분담",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301229",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "부부간 문화적 차이 느낀 정도",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301232",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "문화적 차이 유형",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301233",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "배우자 만남 경로",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301241",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "자녀와의 관계 만족도",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301245",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "만 5세 이하 자녀의 부모로서 가장 어려운 점",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301246",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "만6~24세 자녀 양육의 어려움",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301249",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "결혼이민자 귀화자 등의 한국어 실력",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301254",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "지난 1년동안 한국생활의 어려움",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301259",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "외국출신이라는 이유로 차별받은 경험",
+                  "list_names": "가족관계;다문화가족;결혼 이민자 귀화자 본인",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_002",
+                  "id": "DT_MOGE_1001301274",
+                  "org_id": "154"
+                }
+              ]
             },
             {
               "category": "issue",
-              "type": "table",
-              "name": "다문화가구의 가구구성",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300800",
-              "org_id": "154"
+              "type": "list",
+              "name": "배우자",
+              "acc_name": "가족관계;다문화가족;배우자",
+              "acc_id": "101_B01_101_B011;101_B01_101_B011_003",
+              "id": "101_B01_101_B011_003",
+              "children": [
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "가족관계 만족도",
+                  "list_names": "가족관계;다문화가족;배우자",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_003",
+                  "id": "DT_MOGE_1001301337",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "배우자의 한국생활 지원",
+                  "list_names": "가족관계;다문화가족;배우자",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_003",
+                  "id": "DT_MOGE_1001301340",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "의사 결정",
+                  "list_names": "가족관계;다문화가족;배우자",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_003",
+                  "id": "DT_MOGE_1001301343",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "가사 활동 분담",
+                  "list_names": "가족관계;다문화가족;배우자",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_003",
+                  "id": "DT_MOGE_1001301346",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "지난 1년 부부간 문화적 차이 느낀 정도",
+                  "list_names": "가족관계;다문화가족;배우자",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_003",
+                  "id": "DT_MOGE_1001301349",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "지난 1년 배우자와 다툰 경험",
+                  "list_names": "가족관계;다문화가족;배우자",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_003",
+                  "id": "DT_MOGE_1001301351",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "배우자와의 관계에서 문제가 생길때 대응 방법",
+                  "list_names": "가족관계;다문화가족;배우자",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_003",
+                  "id": "DT_MOGE_1001301353",
+                  "org_id": "154"
+                }
+              ]
             },
             {
               "category": "issue",
-              "type": "table",
-              "name": "다문화가족의 자녀 수",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300802",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가구 자녀의 연령별 분포",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300803",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가구 자녀의 학교급별 취학률",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300806",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가구의 월평균 가구소득",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300809",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "결혼이민자/귀화자 등의 이혼/별거 이유",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300822",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "결혼이민자/귀화자 등의 한국 생활 어려움(복수응답)",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300858",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "결혼이민자/귀화자 등의 관련 기관/단체 이용률",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300902",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 성별/연령별 분포",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300949",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 재학 상태",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300954",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 외국계 부모의 성별",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300958",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화 가족 자녀의 거주지역 및 가구소득",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300962",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀가 한국에서 학교를 다니다 그만둔 이유",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300979",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 학교 적응 정도",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300980",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀가 학교에 잘 적응하지 못하는 이유(복수응답)",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300981",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 학교 공부 어려움",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300982",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 학교폭력 피해 경험 여부",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300983",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 학교폭력 피해 유형(복수응답)",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300984",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 자아존중감",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300994",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "만 13세 이상 다문화가족 자녀의 고민(복수응답)",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300995",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀라는 이유로 차별이나 무시당한 비율(2012, 2015)",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001300998",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 지원 시설 인지율",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001301006",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 지원 시설 이용률",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001301007",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 교육 및 지원 서비스 수혜율(복수응답)",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001301008",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "다문화가족 자녀의 직종",
-              "list_names": "가족관계;다문화가족",
-              "list_ids": "101_B01;101_B01_101_B011",
-              "id": "DT_MOGE_1001301020",
-              "org_id": "154"
+              "type": "list",
+              "name": "자녀",
+              "acc_name": "가족관계;다문화가족;자녀",
+              "acc_id": "101_B01_101_B011;101_B01_101_B011_004",
+              "id": "101_B01_101_B011_004",
+              "children": [
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "자녀의 아버지,어머니와의 관계 만족도",
+                  "list_names": "가족관계;다문화가족;자녀",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_004",
+                  "id": "DT_MOGE_1001301398",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "자녀의 다문화가족 정체성",
+                  "list_names": "가족관계;다문화가족;자녀",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_004",
+                  "id": "DT_MOGE_1001301406",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "재학생 자녀의 학교 적응 정도",
+                  "list_names": "가족관계;다문화가족;자녀",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_004",
+                  "id": "DT_MOGE_1001301416",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "자녀의 자아 존중감",
+                  "list_names": "가족관계;다문화가족;자녀",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_004",
+                  "id": "DT_MOGE_1001301421",
+                  "org_id": "154"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "청소년 자녀의 차별받았을 때 대응 방법",
+                  "list_names": "가족관계;다문화가족;자녀",
+                  "list_ids": "101_B01;101_B01_101_B011;101_B01_101_B011_004",
+                  "id": "DT_MOGE_1001301430",
+                  "org_id": "154"
+                }
+              ]
             }
           ]
         },
@@ -749,46 +890,10 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모 장애 여부",
+              "name": "장애 여부",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300195",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 자녀의 변화 - 초등학생",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300220",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 자녀의 변화 - 초등학생[계속]",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300221",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 자녀의 변화 - 중학생 이상",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300222",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 자녀의 변화 중학생 이상[계속]",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300224",
               "org_id": "154"
             },
             {
@@ -803,7 +908,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "결혼/동거한 당시 한부모 연령",
+              "name": "같이 살기 시작한 시기 한부모 연령",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300274",
@@ -812,7 +917,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가 된 당시 한부모 연령",
+              "name": "한부모가 된 시기 한부모 연령",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300275",
@@ -821,7 +926,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가 된 당시 전 배우자 연령",
+              "name": "한부모가 된 당시 전 배우자의 현황",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300276",
@@ -830,25 +935,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가 된 당시 전 배우자 학력",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300277",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 당시 전 배우자의 종사상 지위",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300278",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "자녀의 한부모과정 인지 정도",
+              "name": "자녀의 이혼과정 인지 여부",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300298",
@@ -857,7 +944,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가족복지시설 입소 인지도 및 이용경험",
+              "name": "주거서비스 지원 인지 및 이용경험",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300351",
@@ -866,7 +953,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가 된 후 달라진 점 - 경제적 어려움",
+              "name": "한부모가 된 후 달라진 점",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300358",
@@ -875,70 +962,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가 된 후 달라진 점 - 부와 모의 역할 혼자서 감당",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300359",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 달라진 점 - 집안일 부담 증가",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300360",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 달라진 점 - 형제, 자매, 친척과 멀어짐",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300361",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 달라진 점 - 건강상태 악화",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300362",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 달라진 점 - 미래에 대한 부담 증가",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300363",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 달라진 점 - 자녀와 긴밀해짐",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300364",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 달라진 점 - 일가친척으로부터 자유로워짐",
-              "list_names": "가족관계;한부모가족",
-              "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300365",
-              "org_id": "154"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "한부모가 된 후 기초생활보장제도 수급 경험",
+              "name": "한부모가 된 후 기초생활보장제도 지원 여부 및 급여",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300379",
@@ -947,7 +971,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가 된 후 저소득 한부모가족 지원 수급 경험",
+              "name": "한부모가 된 후 저소득 한부모가족 지원 여부",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300385",
@@ -956,7 +980,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가족지원사업 탈지원 예상 기간",
+              "name": "한부모가족 지원사업관련 현황",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300386",
@@ -965,7 +989,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모 관련 지원서비스 이용 시 불편한 점",
+              "name": "지원서비스 이용 시 불편한 점",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
               "id": "DT_MOGE_3021300388",
@@ -974,19 +998,28 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가족 지원사업의 적절한 자녀 연령",
+              "name": "한부모가족 지원사업 정보 획득 경로",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300389",
+              "id": "DT_MOGE_3021300413",
               "org_id": "154"
             },
             {
               "category": "issue",
               "type": "table",
-              "name": "한부모가족지원사업 정보 획득 경로(1순위)",
+              "name": "한부모가 된 후 초등학생 자녀변화",
               "list_names": "가족관계;한부모가족",
               "list_ids": "101_B01;101_B01_101_B013",
-              "id": "DT_MOGE_3021300413",
+              "id": "DT_MOGE_3021300513",
+              "org_id": "154"
+            },
+            {
+              "category": "issue",
+              "type": "table",
+              "name": "한부모가 된 후 중학생 이상 자녀변화",
+              "list_names": "가족관계;한부모가족",
+              "list_ids": "101_B01;101_B01_101_B013",
+              "id": "DT_MOGE_3021300595",
               "org_id": "154"
             }
           ]
@@ -1303,7 +1336,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 양호한 주관적 건강수준 인지율",
+                  "name": "시·군·구별 양호한 주관적 건강수준 인지율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_HEALTH_RECOG",
@@ -1312,7 +1345,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 현재흡연율",
+                  "name": "시·군·구별 현재흡연율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_SM",
@@ -1321,7 +1354,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 연간 보건기관 이용률",
+                  "name": "시·군·구별 연간 보건기관 이용률",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_NECE_CLINIC",
@@ -1330,7 +1363,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 월간음주율",
+                  "name": "시·군·구별 월간음주율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_DR_MONTH",
@@ -1339,7 +1372,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 걷기 실천율",
+                  "name": "시·군·구별 걷기 실천율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_EX_WALK",
@@ -1348,7 +1381,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 연간음주자의 고위험음주율",
+                  "name": "시·군·구별 연간음주자의 고위험음주율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_DR_HIGH",
@@ -1357,7 +1390,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 우울감 경험률",
+                  "name": "시·군·구별 우울감 경험률",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_MENTAL_DEPRESS",
@@ -1366,7 +1399,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 남자 현재흡연율",
+                  "name": "시·군·구별 남자 현재흡연율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_SM_MALE",
@@ -1375,7 +1408,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 스트레스 인지율",
+                  "name": "시·군·구별 스트레스 인지율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_MENTAL_STRESS",
@@ -1384,7 +1417,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 연간 체중조절 시도율",
+                  "name": "시·군·구별 연간 체중조절 시도율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_OBE_CONTROL",
@@ -1393,7 +1426,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 비만율(자가보고)",
+                  "name": "시·군·구별 비만율(자가보고)",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_OBE_OBE",
@@ -1402,7 +1435,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 운전자석 안전벨트 착용률",
+                  "name": "시·군·구별 운전자석 안전벨트 착용률",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_BELT",
@@ -1411,7 +1444,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 연간 미충족의료율",
+                  "name": "시·군·구별 연간 미충족의료율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_NECE_NOTTREAT",
@@ -1420,7 +1453,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 연간 인플루엔자 예방접종률",
+                  "name": "시·군·구별 연간 인플루엔자 예방접종률",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_INFLUENZA",
@@ -1429,7 +1462,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 어제 점심식사 후 칫솔질 실천율",
+                  "name": "시·군·구별 어제 점심식사 후 칫솔질 실천율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_OR_BRUSH",
@@ -1438,7 +1471,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 당뇨병 진단 경험자(30세 이상)의 치료율",
+                  "name": "시·군·구별 당뇨병 진단 경험자(30세 이상)의 치료율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_DIA_TREAT",
@@ -1447,7 +1480,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 저작불편호소율(65세 이상)",
+                  "name": "시·군·구별 저작불편호소율(65세 이상)",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_OR_INCONV",
@@ -1456,7 +1489,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 중등도 이상 신체활동 실천율",
+                  "name": "시·군·구별 중등도 이상 신체활동 실천율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_EX_PHY",
@@ -1465,7 +1498,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 현재흡연자의 1개월 내 금연계획률",
+                  "name": "시·군·구별 현재흡연자의 1개월 내 금연계획률",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_AM_PLAN",
@@ -1474,7 +1507,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 현재흡연자의 금연시도율",
+                  "name": "시·군·구별 현재흡연자의 금연시도율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_SM_TRY",
@@ -1483,7 +1516,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 동승차량 앞좌석 안전벨트 착용률",
+                  "name": "시·군·구별 동승차량 앞좌석 안전벨트 착용률",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_H_BELT_TO",
@@ -1492,7 +1525,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시도별 고혈압 진단 경험자(30세 이상)의 고위험음주율",
+                  "name": "시·도별 고혈압 진단 경험자(30세 이상)의 고위험음주율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_HYPER_DOCTOR_HIGH",
@@ -1501,7 +1534,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 고혈압 진단 경험률(30세 이상)",
+                  "name": "시·군·구별 고혈압 진단 경험률(30세 이상)",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_HYPER_DOCTOR",
@@ -1510,7 +1543,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 고혈압 진단 경험자(30세 이상)의 치료율",
+                  "name": "시·군·구별 고혈압 진단 경험자(30세 이상)의 치료율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_HYPER_DOCTOR_DRUG",
@@ -1519,7 +1552,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시도별 당뇨병 진단 경험자(30세 이상)의 고위험음주율",
+                  "name": "시·도별 당뇨병 진단 경험자(30세 이상)의 고위험음주율",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_DIA_DOCTOR_HIGH",
@@ -1528,7 +1561,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "시군구별 당뇨병 진단 경험률(30세 이상)",
+                  "name": "시·군·구별 당뇨병 진단 경험률(30세 이상)",
                   "list_names": "건강·질병;건강;지역사회건강조사",
                   "list_ids": "101_B31;101_B31_101_B3101;101_B31_101_B3101_101_B31_3",
                   "id": "DT_DIA_DOCTOR",
@@ -1723,19 +1756,19 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "경기종합지수(2015=100) (9차)",
+                  "name": "경기종합지수(2015=100) (10차)",
                   "list_names": "경기(전망 및 투자);경기;경기종합지수",
                   "list_ids": "101_B02;101_B0203;101_B0203_101_B0203",
-                  "id": "DT_1C8011",
+                  "id": "DT_1C8013",
                   "org_id": "101"
                 },
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "경기종합지수(2015=100) 구성지표 시계열 (9차)",
+                  "name": "경기종합지수(2015=100) 구성지표 시계열 (10차)",
                   "list_names": "경기(전망 및 투자);경기;경기종합지수",
                   "list_ids": "101_B02;101_B0203;101_B0203_101_B0203",
-                  "id": "DT_1C8012",
+                  "id": "DT_1C8014",
                   "org_id": "101"
                 }
               ]
@@ -1910,15 +1943,6 @@
                   "list_names": "경기(전망 및 투자);경기;건설경기",
                   "list_ids": "101_B02;101_B0203;101_B0203_101_B0203_5",
                   "id": "DT_1G18004",
-                  "org_id": "101"
-                },
-                {
-                  "category": "issue",
-                  "type": "table",
-                  "name": "발주자별 건설수주액(계절조정)",
-                  "list_names": "경기(전망 및 투자);경기;건설경기",
-                  "list_ids": "101_B02;101_B0203;101_B0203_101_B0203_5",
-                  "id": "DT_1G1B041",
                   "org_id": "101"
                 },
                 {
@@ -2140,61 +2164,6 @@
                   "list_ids": "101_B09;101_B0901;101_B0901_101_B09_101_B09_3",
                   "id": "DT_1SSEN071R",
                   "org_id": "101"
-                }
-              ]
-            },
-            {
-              "category": "issue",
-              "type": "list",
-              "name": "항공수송",
-              "acc_name": "교통 및 교통사고;교통;항공수송",
-              "acc_id": "101_B0901;101_B0901_101_B0901_2",
-              "id": "101_B0901_101_B0901_2",
-              "children": [
-                {
-                  "category": "issue",
-                  "type": "table",
-                  "name": "공항별 수송현황",
-                  "list_names": "교통 및 교통사고;교통;항공수송",
-                  "list_ids": "101_B09;101_B0901;101_B0901_101_B0901_2",
-                  "id": "TX_38101_A020",
-                  "org_id": "381"
-                },
-                {
-                  "category": "issue",
-                  "type": "table",
-                  "name": "시간대별 일평균 수송현황",
-                  "list_names": "교통 및 교통사고;교통;항공수송",
-                  "list_ids": "101_B09;101_B0901;101_B0901_101_B0901_2",
-                  "id": "TX_38101_A025",
-                  "org_id": "381"
-                },
-                {
-                  "category": "issue",
-                  "type": "table",
-                  "name": "요일별 일평균 수송현황",
-                  "list_names": "교통 및 교통사고;교통;항공수송",
-                  "list_ids": "101_B09;101_B0901;101_B0901_101_B0901_2",
-                  "id": "TX_38101_A027",
-                  "org_id": "381"
-                },
-                {
-                  "category": "issue",
-                  "type": "table",
-                  "name": "월별 일최다 수송처리실적",
-                  "list_names": "교통 및 교통사고;교통;항공수송",
-                  "list_ids": "101_B09;101_B0901;101_B0901_101_B0901_2",
-                  "id": "TX_38101_A031",
-                  "org_id": "381"
-                },
-                {
-                  "category": "issue",
-                  "type": "table",
-                  "name": "국제선 환승여객 현황(인천)",
-                  "list_names": "교통 및 교통사고;교통;항공수송",
-                  "list_ids": "101_B09;101_B0901;101_B0901_101_B0901_2",
-                  "id": "TX_38101_A034",
-                  "org_id": "381"
                 }
               ]
             },
@@ -3537,7 +3506,7 @@
                 {
                   "category": "issue",
                   "type": "table",
-                  "name": "전체 산업 재해현황-업종별(산업별 중분류)",
+                  "name": "전체 재해 현황 및 분석-업종별(산업별 중분류)",
                   "list_names": "범죄·안전;안전;산업재해",
                   "list_ids": "B24;101_B2402;101_B2402_101_B24023",
                   "id": "DT_11806_N000",
@@ -4020,7 +3989,7 @@
               "name": "가구특성별 소득원천별 가구소득",
               "list_names": "부동산·소득·신용카드;소득",
               "list_ids": "101_B15;101_B15_101_B15_2",
-              "id": "DT_1HDNB01",
+              "id": "DT_1HDAB01",
               "org_id": "101"
             },
             {
@@ -4029,7 +3998,7 @@
               "name": "가구특성별 소득분위별 가구소득",
               "list_names": "부동산·소득·신용카드;소득",
               "list_ids": "101_B15;101_B15_101_B15_2",
-              "id": "DT_1HDNB02",
+              "id": "DT_1HDAB02",
               "org_id": "101"
             },
             {
@@ -4038,7 +4007,7 @@
               "name": "소득원천별 소득분위별 가구소득",
               "list_names": "부동산·소득·신용카드;소득",
               "list_ids": "101_B15;101_B15_101_B15_2",
-              "id": "DT_1HDNB04",
+              "id": "DT_1HDAB04",
               "org_id": "101"
             },
             {
@@ -4593,7 +4562,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "지난 1년 동안 가장 많이 참여한 여가활동 유형(복수응답)-1순위",
+              "name": "지난 1년 동안 가장 많이 참여한 여가활동(유형별)-1순위",
               "list_names": "여가생활·운동;여가생활",
               "list_ids": "B26;101_B2601",
               "id": "DT_113_STBL_1026887",
@@ -4725,15 +4694,6 @@
               "list_ids": "B26;101_B2602",
               "id": "DT_113_STBL_1028620",
               "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "체육활동이 행복에 미치는 영향",
-              "list_names": "여가생활·운동;운동",
-              "list_ids": "B26;101_B2602",
-              "id": "DT_113_STBL_1028612",
-              "org_id": "113"
             }
           ]
         }
@@ -4757,120 +4717,230 @@
           "children": [
             {
               "category": "issue",
-              "type": "table",
-              "name": "국내여행 총비용",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1022758",
-              "org_id": "113"
+              "type": "list",
+              "name": "국내여행",
+              "acc_name": "여행·영화·음악;여행;국내여행",
+              "acc_id": "101_B0701;101_B0701_001",
+              "id": "101_B0701_001",
+              "children": [
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "국내여행 경험률",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029196",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "월별 국내여행 경험률",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029197",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "국내여행 횟수",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029206",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "월별 국내여행 횟수",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029207",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "여행지별 국내여행 횟수",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029216",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "1인 평균 국민여행 횟수 (만15세이상 전국민)",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029225",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "국내여행 일수",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029244",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "월별 국내여행 일수",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029245",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "여행지별 국내여행 일수",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029254",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "1인 평균 국민여행 일수 (만15세이상 전국민)",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029263",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "국내여행 지출액",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029295",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "월별 국내여행 지출액",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029296",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "여행지별 국내여행 지출액",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029305",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "1인 평균 국민여행 지출액 (만15세이상 전국민)",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029314",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "국내여행 시기",
+                  "list_names": "여행·영화·음악;여행;국내여행",
+                  "list_ids": "B07;101_B0701;101_B0701_001",
+                  "id": "DT_113_STBL_1029352",
+                  "org_id": "113"
+                }
+              ]
             },
             {
               "category": "issue",
-              "type": "table",
-              "name": "국내여행 이동총량",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1022883",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "국내여행 참가자 수",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1022720",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "국내여행 참가 횟수",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1022739",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "여행지별 국내여행 참가자 수",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1025971",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "여행지별 국내여행 참가 횟수",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1025995",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "국내여행 경험률",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1022776",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "만 15세 이상 전국민 1인 평균 국내여행 일수",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1023292",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "여행지별 만 15세 이상 전국민 1인 평균 국내여행 일수",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1026167",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "응답자 특성별 국내여행 목적",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1023868",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "응답자 특성별 국내여행 주요 이동 수단",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1023927",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "가구여행 전반적 만족도",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1023144",
-              "org_id": "113"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "여행지별 가구여행 전반적 만족도",
-              "list_names": "여행·영화·음악;여행",
-              "list_ids": "B07;101_B0701",
-              "id": "DT_113_STBL_1026691",
-              "org_id": "113"
+              "type": "list",
+              "name": "해외여행",
+              "acc_name": "여행·영화·음악;여행;해외여행",
+              "acc_id": "101_B0701;101_B0701_002",
+              "id": "101_B0701_002",
+              "children": [
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "해외여행 경험률",
+                  "list_names": "여행·영화·음악;여행;해외여행",
+                  "list_ids": "B07;101_B0701;101_B0701_002",
+                  "id": "DT_113_STBL_1029566",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "1회 평균 해외여행 일수 (여행경험자)",
+                  "list_names": "여행·영화·음악;여행;해외여행",
+                  "list_ids": "B07;101_B0701;101_B0701_002",
+                  "id": "DT_113_STBL_1029567",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "해외여행 시기",
+                  "list_names": "여행·영화·음악;여행;해외여행",
+                  "list_ids": "B07;101_B0701;101_B0701_002",
+                  "id": "DT_113_STBL_1029568",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "해외여행 방문지 선택 이유 (중복응답)",
+                  "list_names": "여행·영화·음악;여행;해외여행",
+                  "list_ids": "B07;101_B0701;101_B0701_002",
+                  "id": "DT_113_STBL_1029569",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "해외여행 여행지에서의 활동 (중복응답)",
+                  "list_names": "여행·영화·음악;여행;해외여행",
+                  "list_ids": "B07;101_B0701;101_B0701_002",
+                  "id": "DT_113_STBL_1029583",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "해외여행 주요 숙박시설 (중복응답)",
+                  "list_names": "여행·영화·음악;여행;해외여행",
+                  "list_ids": "B07;101_B0701;101_B0701_002",
+                  "id": "DT_113_STBL_1029586",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "1회 평균 해외여행 지출 (여행경험자)",
+                  "list_names": "여행·영화·음악;여행;해외여행",
+                  "list_ids": "B07;101_B0701;101_B0701_002",
+                  "id": "DT_113_STBL_1029587",
+                  "org_id": "113"
+                },
+                {
+                  "category": "issue",
+                  "type": "table",
+                  "name": "해외여행 전반적 만족도",
+                  "list_names": "여행·영화·음악;여행;해외여행",
+                  "list_ids": "B07;101_B0701;101_B0701_002",
+                  "id": "DT_113_STBL_1029591",
+                  "org_id": "113"
+                }
+              ]
             }
           ]
         },
@@ -4885,7 +4955,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "주 이용 매체-매체를 통한 영화 이용 경험자",
+              "name": "매체를 통한 문화예술행사 관람 주 이용매체-영화(이용자)",
               "list_names": "여행·영화·음악;영화",
               "list_ids": "B07;101_B0702",
               "id": "DT_113_STBL_1026972",
@@ -4894,7 +4964,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "문화행사 직접 관람 횟수-영화",
+              "name": "문화예술행사 직접 관람횟수 - 영화",
               "list_names": "여행·영화·음악;영화",
               "list_ids": "B07;101_B0702",
               "id": "DT_113_STBL_1026895",
@@ -4912,7 +4982,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "매체 이용에 대한 이용 경험 만족도-영화 이용 경험자",
+              "name": "매체를 통한 문화예술행사 관람 만족도-영화",
               "list_names": "여행·영화·음악;영화",
               "list_ids": "B07;101_B0702",
               "id": "DT_113_STBL_1026987",
@@ -4940,7 +5010,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "주 이용 매체-매체를 통한 대중음악 이용 경험자",
+              "name": "매체를 통한 문화예술행사 관람 주 이용매체-대중음악/연예(이용자)",
               "list_names": "여행·영화·음악;음악",
               "list_ids": "B07;101_B0703",
               "id": "DT_113_STBL_1026973",
@@ -4949,7 +5019,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "문화행사 직접 관람 횟수-대중음악/연예",
+              "name": "문화예술행사 직접 관람횟수 - 대중음악/연예",
               "list_names": "여행·영화·음악;음악",
               "list_ids": "B07;101_B0703",
               "id": "DT_113_STBL_1026896",
@@ -4967,7 +5037,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "매체 이용에 대한 이용 경험 만족도-대중음악 이용 경험자",
+              "name": "매체를 통한 문화예술행사 관람 만족도-대중음악/연예",
               "list_names": "여행·영화·음악;음악",
               "list_ids": "B07;101_B0703",
               "id": "DT_113_STBL_1026988",
@@ -5615,7 +5685,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "시군구별 월간음주율",
+              "name": "시·군·구별 월간음주율",
               "list_names": "음주·흡연;음주",
               "list_ids": "101_B17;101_B1701",
               "id": "DT_H_DR_MONTH",
@@ -5624,7 +5694,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "연간음주율 추이 : 성별, 만19세이상",
+              "name": "연간음주율 추이",
               "list_names": "음주·흡연;음주",
               "list_ids": "101_B17;101_B1701",
               "id": "DT_11702_N011",
@@ -5633,7 +5703,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "시군구별 연간음주자의 고위험음주율",
+              "name": "시·군·구별 연간음주자의 고위험음주율",
               "list_names": "음주·흡연;음주",
               "list_ids": "101_B17;101_B1701",
               "id": "DT_H_DR_HIGH",
@@ -5678,7 +5748,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "시도별 고혈압 진단 경험자(30세 이상)의 고위험음주율",
+              "name": "시·도별 고혈압 진단 경험자(30세 이상)의 고위험음주율",
               "list_names": "음주·흡연;음주",
               "list_ids": "101_B17;101_B1701",
               "id": "DT_HYPER_DOCTOR_HIGH",
@@ -5687,7 +5757,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "시도별 당뇨병 진단 경험자(30세 이상)의 고위험음주율",
+              "name": "시·도별 당뇨병 진단 경험자(30세 이상)의 고위험음주율",
               "list_names": "음주·흡연;음주",
               "list_ids": "101_B17;101_B1701",
               "id": "DT_DIA_DOCTOR_HIGH",
@@ -5742,7 +5812,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "시군구별 현재흡연율",
+              "name": "시·군·구별 현재흡연율",
               "list_names": "음주·흡연;흡연",
               "list_ids": "101_B17;101_B1702",
               "id": "DT_H_SM",
@@ -5751,7 +5821,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "시군구별 남자 현재흡연율",
+              "name": "시·군·구별 남자 현재흡연율",
               "list_names": "음주·흡연;흡연",
               "list_ids": "101_B17;101_B1702",
               "id": "DT_H_SM_MALE",
@@ -5760,7 +5830,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "현재흡연율 추이 : 성별, 만19세이상",
+              "name": "현재흡연율 추이",
               "list_names": "음주·흡연;흡연",
               "list_ids": "101_B17;101_B1702",
               "id": "DT_11702_N001",
@@ -5852,16 +5922,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "연령별 매매가격지수",
-              "list_names": "이사·주택;주택가격",
-              "list_ids": "B11;101_B1107",
-              "id": "DT_40803_N0005",
-              "org_id": "408"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "연령별 전세가격지수",
+              "name": "건축연령별 전세가격지수",
               "list_names": "이사·주택;주택가격",
               "list_ids": "B11;101_B1107",
               "id": "DT_40803_N0006",
@@ -5971,7 +6032,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "시도별 임대주택사업자현황",
+              "name": "시도별 임대사업자 및 임대호수 현황",
               "list_names": "이사·주택;임대주택",
               "list_ids": "B11;B11_B11_2",
               "id": "DT_MLTM_826",
@@ -5980,7 +6041,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "연도별 임대주택사업자현황",
+              "name": "연도별 임대사업자 및 임대호수 현황",
               "list_names": "이사·주택;임대주택",
               "list_ids": "B11;B11_B11_2",
               "id": "DT_MLTM_842",
@@ -5989,7 +6050,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "임대주택건설실적",
+              "name": "임대주택건설공급현황",
               "list_names": "이사·주택;임대주택",
               "list_ids": "B11;B11_B11_2",
               "id": "DT_MLTM_5560",
@@ -5998,7 +6059,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "임대주택 분양전환 실적",
+              "name": "분양전환 실적 및 공가현황",
               "list_names": "이사·주택;임대주택",
               "list_ids": "B11;B11_B11_2",
               "id": "DT_MLTM_5523",
@@ -6178,15 +6239,6 @@
               "list_ids": "101_B30;101_B3002",
               "id": "DT_1BPB001",
               "org_id": "101"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "추계인구(시도)",
-              "list_names": "인구;추계인구",
-              "list_ids": "101_B30;101_B3002",
-              "id": "INH_1BPB001",
-              "org_id": "101"
             }
           ]
         },
@@ -6321,34 +6373,6 @@
         {
           "category": "issue",
           "type": "list",
-          "name": "아동·청소년",
-          "acc_name": "자원봉사활동;아동·청소년",
-          "acc_id": "101_B36;101_B36_101_B36_1",
-          "id": "101_B36_101_B36_1",
-          "children": [
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "자원봉사활동 횟수",
-              "list_names": "자원봉사활동;아동·청소년",
-              "list_ids": "101_B36;101_B36_101_B36_1",
-              "id": "TX_117_2013_H246",
-              "org_id": "117"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "유형별 자원봉사활동 참여율",
-              "list_names": "자원봉사활동;아동·청소년",
-              "list_ids": "101_B36;101_B36_101_B36_1",
-              "id": "TX_117_2013_H245",
-              "org_id": "117"
-            }
-          ]
-        },
-        {
-          "category": "issue",
-          "type": "list",
           "name": "사회복지",
           "acc_name": "자원봉사활동;사회복지",
           "acc_id": "101_B36;101_B36_101_B36_2",
@@ -6375,7 +6399,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "분기별/연도별 봉사활동현황(시도별)",
+              "name": "분기별 봉사활동현황(시도별)",
               "list_names": "자원봉사활동;사회복지",
               "list_ids": "101_B36;101_B36_101_B36_2",
               "id": "TX_117_2009_H7009",
@@ -6384,7 +6408,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "분기별/연도별 봉사활동현황(연령대별/성별)",
+              "name": "분기별 봉사활동현황(연령대별/성별)",
               "list_names": "자원봉사활동;사회복지",
               "list_ids": "101_B36;101_B36_101_B36_2",
               "id": "TX_117_2009_H7010",
@@ -6393,7 +6417,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "분기별/연도별 봉사활동현황(직업별)",
+              "name": "분기별 봉사활동현황(직업별)",
               "list_names": "자원봉사활동;사회복지",
               "list_ids": "101_B36;101_B36_101_B36_2",
               "id": "TX_117_2009_H7011",
@@ -6671,7 +6695,7 @@
               "name": "총저축과 총투자(계절조정, 명목, 분기)",
               "list_names": "저축·자산·부채;저축",
               "list_ids": "B12;B12_B12",
-              "id": "DT_102Y053",
+              "id": "DT_111Y053",
               "org_id": "301"
             },
             {
@@ -6680,7 +6704,7 @@
               "name": "총저축과 총투자(원계열, 명목, 분기 및 연간)",
               "list_names": "저축·자산·부채;저축",
               "list_ids": "B12;B12_B12",
-              "id": "DT_102Y037",
+              "id": "DT_111Y037",
               "org_id": "301"
             },
             {
@@ -6708,7 +6732,7 @@
               "name": "자산5분위별 가계재무건전성",
               "list_names": "저축·자산·부채;자산",
               "list_ids": "B12;B1202",
-              "id": "DT_1HDNA19",
+              "id": "DT_1HDAA19",
               "org_id": "101"
             },
             {
@@ -6751,7 +6775,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "가계부채 비율",
+              "name": "저축투자차액 비율-가계 및 비영리단체",
               "list_names": "저축·자산·부채;부채",
               "list_ids": "B12;101_B1201",
               "id": "DT_2KAA608",
@@ -6760,7 +6784,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "국가부채비율",
+              "name": "저축투자차액 비율-일반정부",
               "list_names": "저축·자산·부채;부채",
               "list_ids": "B12;101_B1201",
               "id": "DT_2KAA720",
@@ -6817,7 +6841,7 @@
               "name": "소득5분위별 담보부채 비율",
               "list_names": "저축·자산·부채;부채",
               "list_ids": "B12;101_B1201",
-              "id": "DT_1HDNC03",
+              "id": "DT_1HDAC03",
               "org_id": "101"
             },
             {
@@ -6826,7 +6850,7 @@
               "name": "자산5분위별 담보부채 비율",
               "list_names": "저축·자산·부채;부채",
               "list_ids": "B12;101_B1201",
-              "id": "DT_1HDNC04",
+              "id": "DT_1HDAC04",
               "org_id": "101"
             },
             {
@@ -6835,7 +6859,7 @@
               "name": "순자산5분위별 담보부채 비율",
               "list_names": "저축·자산·부채;부채",
               "list_ids": "B12;101_B1201",
-              "id": "DT_1HDNC05",
+              "id": "DT_1HDAC05",
               "org_id": "101"
             },
             {
@@ -6844,7 +6868,7 @@
               "name": "소득5분위별 신용부채 비율",
               "list_names": "저축·자산·부채;부채",
               "list_ids": "B12;101_B1201",
-              "id": "DT_1HDNC08",
+              "id": "DT_1HDAC08",
               "org_id": "101"
             },
             {
@@ -6853,7 +6877,7 @@
               "name": "자산5분위별 신용부채 비율",
               "list_names": "저축·자산·부채;부채",
               "list_ids": "B12;101_B1201",
-              "id": "DT_1HDNC09",
+              "id": "DT_1HDAC09",
               "org_id": "101"
             },
             {
@@ -6862,7 +6886,7 @@
               "name": "순자산5분위별 신용부채 비율",
               "list_names": "저축·자산·부채;부채",
               "list_ids": "B12;101_B1201",
-              "id": "DT_1HDNC10",
+              "id": "DT_1HDAC10",
               "org_id": "101"
             }
           ]
@@ -6881,7 +6905,7 @@
               "name": "시도별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA01",
+              "id": "DT_1HDAA01",
               "org_id": "101"
             },
             {
@@ -6890,7 +6914,7 @@
               "name": "주택종류별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA02",
+              "id": "DT_1HDAA02",
               "org_id": "101"
             },
             {
@@ -6899,7 +6923,7 @@
               "name": "입주형태별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA03",
+              "id": "DT_1HDAA03",
               "org_id": "101"
             },
             {
@@ -6908,7 +6932,7 @@
               "name": "가구원수별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA04",
+              "id": "DT_1HDAA04",
               "org_id": "101"
             },
             {
@@ -6917,7 +6941,7 @@
               "name": "가구주 성별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA05",
+              "id": "DT_1HDAA05",
               "org_id": "101"
             },
             {
@@ -6926,7 +6950,7 @@
               "name": "가구주연령계층별(10세) 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA06",
+              "id": "DT_1HDAA06",
               "org_id": "101"
             },
             {
@@ -6935,7 +6959,7 @@
               "name": "가구주 혼인상태별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA07",
+              "id": "DT_1HDAA07",
               "org_id": "101"
             },
             {
@@ -6944,7 +6968,7 @@
               "name": "가구주 교육정도별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA08",
+              "id": "DT_1HDAA08",
               "org_id": "101"
             },
             {
@@ -6953,7 +6977,7 @@
               "name": "가구주 종사상지위별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA09",
+              "id": "DT_1HDAA09",
               "org_id": "101"
             },
             {
@@ -6962,7 +6986,7 @@
               "name": "소득5분위별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA10",
+              "id": "DT_1HDAA10",
               "org_id": "101"
             },
             {
@@ -6971,7 +6995,7 @@
               "name": "자산5분위별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA11",
+              "id": "DT_1HDAA11",
               "org_id": "101"
             },
             {
@@ -6980,7 +7004,7 @@
               "name": "순자산5분위별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA12",
+              "id": "DT_1HDAA12",
               "org_id": "101"
             },
             {
@@ -6989,7 +7013,7 @@
               "name": "소득5분위별 가구주 종사상지위별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA13",
+              "id": "DT_1HDAA13",
               "org_id": "101"
             },
             {
@@ -6998,7 +7022,7 @@
               "name": "소득5분위별 자산5분위별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA14",
+              "id": "DT_1HDAA14",
               "org_id": "101"
             },
             {
@@ -7007,7 +7031,7 @@
               "name": "소득5분위별 순자산5분위별 자산, 부채, 소득 현황",
               "list_names": "저축·자산·부채;자산 및 부채 현황",
               "list_ids": "B12;B12_B12_4",
-              "id": "DT_1HDNA15",
+              "id": "DT_1HDAA15",
               "org_id": "101"
             }
           ]
@@ -7207,10 +7231,10 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "부문별 BSI(2014.01~2017.12)",
+              "name": "부문별 BSI",
               "list_names": "전자상거래;IT 산업",
               "list_ids": "101_B32;101_B32_101_B32_5",
-              "id": "DT_37404_02B",
+              "id": "DT_37404_02C",
               "org_id": "127"
             }
           ]
@@ -7530,7 +7554,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "종교별 국가지정(등록)문화재 현황",
+              "name": "종교별 국가지정∙등록문화재 현황",
               "list_names": "종교;종교활동",
               "list_ids": "B10;B10_B10_1",
               "id": "TX_15002_A017",
@@ -7608,24 +7632,6 @@
               "list_ids": "B10;B10_B10_2",
               "id": "DT_ES2017_017_1",
               "org_id": "402"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "종교활동 빈도",
-              "list_names": "종교;청소년과 종교",
-              "list_ids": "B10;B10_B10_2",
-              "id": "TX_117_2013_H250",
-              "org_id": "117"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "종교(본인)",
-              "list_names": "종교;청소년과 종교",
-              "list_ids": "B10;B10_B10_2",
-              "id": "TX_117_2013_H249",
-              "org_id": "117"
             }
           ]
         }
@@ -7650,7 +7656,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "주식 옵션 거래실적",
+              "name": "주식옵션 거래실적",
               "list_names": "주식·금융;주식",
               "list_ids": "101_B20;101_B2003",
               "id": "DT_343_2010_S0107",
@@ -7668,7 +7674,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "코스닥 상장주식 총괄",
+              "name": "코스닥 상장주식총괄",
               "list_names": "주식·금융;주식",
               "list_ids": "101_B20;101_B2003",
               "id": "DT_343_2010_S0054",
@@ -7716,7 +7722,7 @@
               "name": "보호예수현황 ; 주식",
               "list_names": "주식·금융;주식",
               "list_ids": "101_B20;101_B2003",
-              "id": "TX_34801_A011",
+              "id": "DT_348001_A011",
               "org_id": "348"
             },
             {
@@ -7740,28 +7746,10 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "예탁증권 보관현황 ; 주식보관 총괄",
-              "list_names": "주식·금융;주식",
-              "list_ids": "101_B20;101_B2003",
-              "id": "TX_34801_A003",
-              "org_id": "348"
-            },
-            {
-              "category": "issue",
-              "type": "table",
               "name": "매매결제 현황 ; 주식 기관결제",
               "list_names": "주식·금융;주식",
               "list_ids": "101_B20;101_B2003",
               "id": "TX_34801_A015",
-              "org_id": "348"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "예탁증권 보관현황 ; 예탁자업종별 주식 보관현황",
-              "list_names": "주식·금융;주식",
-              "list_ids": "101_B20;101_B2003",
-              "id": "TX_34801_A005",
               "org_id": "348"
             },
             {
@@ -7776,16 +7764,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "예탁 및 반환 현황 ; 기타주식",
-              "list_names": "주식·금융;주식",
-              "list_ids": "101_B20;101_B2003",
-              "id": "TX_34801_A022",
-              "org_id": "348"
-            },
-            {
-              "category": "issue",
-              "type": "table",
-              "name": "예탁 및 반환 현황 ; 유가증권시장 상장주식",
+              "name": "증권 예탁·반환현황 ; 주식 예탁·반환현황",
               "list_names": "주식·금융;주식",
               "list_ids": "101_B20;101_B2003",
               "id": "TX_34801_A021",
@@ -7794,7 +7773,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "주식워런트증권 예탁, 상환 및 잔량 현황",
+              "name": "주식워런트증권 발행, 상환 및 잔량 현황",
               "list_names": "주식·금융;주식",
               "list_ids": "101_B20;101_B2003",
               "id": "TX_34801_A044",
@@ -7833,7 +7812,7 @@
                   "name": "가구주연령계층별(10세) 가계재무건전성",
                   "list_names": "주식·금융;금융;가계금융",
                   "list_ids": "101_B20;101_B20_101_B201;101_B20_101_B201_101_B2012",
-                  "id": "DT_1HDNA16",
+                  "id": "DT_1HDAA16",
                   "org_id": "101"
                 },
                 {
@@ -7842,7 +7821,7 @@
                   "name": "가구주종사상지위별 가계재무건전성",
                   "list_names": "주식·금융;금융;가계금융",
                   "list_ids": "101_B20;101_B20_101_B201;101_B20_101_B201_101_B2012",
-                  "id": "DT_1HDNA17",
+                  "id": "DT_1HDAA17",
                   "org_id": "101"
                 },
                 {
@@ -7851,7 +7830,7 @@
                   "name": "소득5분위별 가계재무건전성",
                   "list_names": "주식·금융;금융;가계금융",
                   "list_ids": "101_B20;101_B20_101_B201;101_B20_101_B201_101_B2012",
-                  "id": "DT_1HDNA18",
+                  "id": "DT_1HDAA18",
                   "org_id": "101"
                 },
                 {
@@ -7860,7 +7839,7 @@
                   "name": "자산5분위별 가계재무건전성",
                   "list_names": "주식·금융;금융;가계금융",
                   "list_ids": "101_B20;101_B20_101_B201;101_B20_101_B201_101_B2012",
-                  "id": "DT_1HDNA19",
+                  "id": "DT_1HDAA19",
                   "org_id": "101"
                 },
                 {
@@ -7869,7 +7848,7 @@
                   "name": "순자산5분위별 가계재무건전성",
                   "list_names": "주식·금융;금융;가계금융",
                   "list_ids": "101_B20;101_B20_101_B201;101_B20_101_B201_101_B2012",
-                  "id": "DT_1HDNA20",
+                  "id": "DT_1HDAA20",
                   "org_id": "101"
                 }
               ]
@@ -8546,7 +8525,7 @@
             {
               "category": "issue",
               "type": "table",
-              "name": "시도/시군구별 혼인형태",
+              "name": "시도/시군구별 혼인종류",
               "list_names": "혼인·이혼;혼인 및 재혼",
               "list_ids": "101_B19;101_B1901",
               "id": "DT_1B83A23",
@@ -8954,5 +8933,5 @@
       ]
     }
   ],
-  "issue-timestamp": "2019-09-06T17:18:42.285970"
+  "issue-timestamp": "2020-06-18T10:56:32.311152"
 }
