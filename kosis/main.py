@@ -304,17 +304,26 @@ def get_table_metainfo(table_id, org_id=None):
     params.update({"type": "ORG"})
     res = requests.get(url, params=params)
     data = xmltodict.parse(res.content.decode("utf-8"), dict_constructor=dict)
-    org_name = data["response"]["Structures"]["orgNm"]
+    try:
+        org_name = data["response"]["Structures"]["orgNm"]
+    except KeyError:
+        raise Exception(data)
 
     params.update({"type": "TBL"})
     res = requests.get(url, params=params)
     data = xmltodict.parse(res.content.decode("utf-8"), dict_constructor=dict)
-    table_name = data["response"]["Structures"]["tblNm"]
+    try:
+        table_name = data["response"]["Structures"]["tblNm"]
+    except KeyError:
+        raise Exception(data)
 
     params.update({"type": "ITM"})
     res = requests.get(url, params=params)
     data = xmltodict.parse(res.content.decode("utf-8"), dict_constructor=dict)
-    items = data["response"]["Structures"]["MetaRow"]
+    try:
+        items = data["response"]["Structures"]["MetaRow"]
+    except KeyError:
+        raise Exception(data)
     item = {}
     for i in items:
         obj_id = i["objId"]
