@@ -102,13 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-/.idea/dictionaries/joelkim.xml
-/.idea/inspectionProfiles/profiles_settings.xml
-/.idea/.gitignore
-/.idea/kosis.iml
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/vcs.xml
+/.idea/
 
 # debug script
 /test/debug*.py

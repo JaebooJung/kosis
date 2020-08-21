@@ -276,6 +276,8 @@ def print_tree(list_id=None, max_level=1, category="topic"):
         result = search_node(result, tree, list_id, by="id", with_children=True)
         if len(result) > 0:
             nodes = result[0]["children"]
+        else:
+            raise Exception(f"no list_id={list_id}")
     print_nodes(nodes, max_level, [])
 
 
