@@ -303,7 +303,8 @@ def get_table_metainfo(table_id, org_id=None):
 
     params.update({"type": "ORG"})
     res = requests.get(url, params=params)
-    data = xmltodict.parse(res.content.decode("utf-8"), dict_constructor=dict)
+    content = res.content.decode("utf-8").replace("&", "and")
+    data = xmltodict.parse(content, dict_constructor=dict)
     try:
         org_name = data["response"]["Structures"]["orgNm"]
     except KeyError:
@@ -311,7 +312,8 @@ def get_table_metainfo(table_id, org_id=None):
 
     params.update({"type": "TBL"})
     res = requests.get(url, params=params)
-    data = xmltodict.parse(res.content.decode("utf-8"), dict_constructor=dict)
+    content = res.content.decode("utf-8").replace("&", "and")
+    data = xmltodict.parse(content, dict_constructor=dict)
     try:
         table_name = data["response"]["Structures"]["tblNm"]
     except KeyError:
@@ -319,7 +321,8 @@ def get_table_metainfo(table_id, org_id=None):
 
     params.update({"type": "ITM"})
     res = requests.get(url, params=params)
-    data = xmltodict.parse(res.content.decode("utf-8"), dict_constructor=dict)
+    content = res.content.decode("utf-8").replace("&", "and")
+    data = xmltodict.parse(content, dict_constructor=dict)
     try:
         items = data["response"]["Structures"]["MetaRow"]
     except KeyError:
